@@ -38,13 +38,54 @@ _INTERVAL_VAL = setInterval(Type, 100);
 
 
 // product slider
-let myCarousel = document.querySelectorAll('#featureContainer .carousel .carousel-item');
-myCarousel.forEach((el) => {
+let Carouselgoal = document.querySelectorAll('#GoalSection .carousel .carousel-item');
+Carouselgoal.forEach((el) => {
   const minPerSlide = 4
   let next = el.nextElementSibling
   for (var i=1; i<minPerSlide; i++) {
     if (!next) {
-      next = myCarousel[0]
+      next = Carouselgoal[0]
+    }
+    let cloneChild = next.cloneNode(true)
+    el.appendChild(cloneChild.children[0])
+    next = next.nextElementSibling
+  }
+})
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-LLWL5N9CSM');
+
+// -----------------------------
+
+let carouselinfromation = document.querySelectorAll('#InformationSection .carousel .carousel-item');
+carouselinfromation.forEach((el) => {
+  const minPerSlide = 4
+  let next = el.nextElementSibling
+  for (var i=1; i<minPerSlide; i++) {
+    if (!next) {
+      next = carouselinfromation[0]
+    }
+    let cloneChild = next.cloneNode(true)
+    el.appendChild(cloneChild.children[0])
+    next = next.nextElementSibling
+  }
+})
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-LLWL5N9CSM');
+
+
+// -----------------------------
+
+let carouselunivercity = document.querySelectorAll('#UnivercitySection .carousel .carousel-item');
+carouselunivercity.forEach((el) => {
+  const minPerSlide = 4
+  let next = el.nextElementSibling
+  for (var i=1; i<minPerSlide; i++) {
+    if (!next) {
+      next = carouselunivercity[0]
     }
     let cloneChild = next.cloneNode(true)
     el.appendChild(cloneChild.children[0])
