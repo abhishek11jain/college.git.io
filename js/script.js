@@ -98,6 +98,69 @@ gtag('js', new Date());
 gtag('config', 'G-LLWL5N9CSM');
 
 
+// -----------------------------
+
+let carouselcourses = document.querySelectorAll('#CoursesSection .carousel .carousel-item');
+carouselcourses.forEach((el) => {
+  const minPerSlide = 4
+  let next = el.nextElementSibling
+  for (var i=1; i<minPerSlide; i++) {
+    if (!next) {
+      next = carouselcourses[0]
+    }
+    let cloneChild = next.cloneNode(true)
+    el.appendChild(cloneChild.children[0])
+    next = next.nextElementSibling
+  }
+})
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-LLWL5N9CSM');
+
+
+// -----------------------------
+
+let carouselexam = document.querySelectorAll('#ExamSection .carousel .carousel-item');
+carouselexam.forEach((el) => {
+  const minPerSlide = 4
+  let next = el.nextElementSibling
+  for (var i=1; i<minPerSlide; i++) {
+    if (!next) {
+      next = carouselexam[0]
+    }
+    let cloneChild = next.cloneNode(true)
+    el.appendChild(cloneChild.children[0])
+    next = next.nextElementSibling
+  }
+})
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-LLWL5N9CSM');
+
+
+// -----------------------------
+
+let carouselstudy = document.querySelectorAll('#StudySection .carousel .carousel-item');
+carouselstudy.forEach((el) => {
+  const minPerSlide = 3
+  let next = el.nextElementSibling
+  for (var i=1; i<minPerSlide; i++) {
+    if (!next) {
+      next = carouselstudy[0]
+    }
+    let cloneChild = next.cloneNode(true)
+    el.appendChild(cloneChild.children[0])
+    next = next.nextElementSibling
+  }
+})
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-LLWL5N9CSM');
+
+
 // Less And More
 function viewMore() {
 	var dots = document.getElementById("show");

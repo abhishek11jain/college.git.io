@@ -602,8 +602,170 @@ a{
 .univercity-section #UnivercitySection .data .bottom-data p:last-child{
     border-bottom: none !important;
 }
-/* Infromation section */
+/* Univercity section */
 
+
+/* Courses section */
+.courses-section{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.courses-section  #CoursesSection .carousel-inner .carousel-item.active,
+.courses-section  #CoursesSection .carousel-inner .carousel-item-next,
+.courses-section  #CoursesSection .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+.courses-section  #CoursesSection .carousel-inner .carousel-item-end.active,
+.courses-section  #CoursesSection .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+.courses-section  #CoursesSection .carousel-inner .carousel-item-start.active, 
+.courses-section  #CoursesSection .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
+.courses-section .badge-buttons{
+    width: 94%;
+}
+.courses-section .indicator-icon a{
+    padding: 10px;
+    background: var(--theme-color);
+    color: var(--white-color);
+}
+.courses-section .indicate{
+    align-items: center;
+}
+.courses-section  #CoursesSection .card{
+    margin: 0 10px;
+}    
+.courses-section  #CoursesSection .data table td{
+    padding: 4px;
+    border: none;
+}
+.courses-section  #CoursesSection .data .badge{
+    background: var(--bg-gray);
+    color: var(--gray-color);
+    font-weight: 100;
+}
+.courses-section  #CoursesSection .data a{
+    padding-left: 2px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.courses-section  #CoursesSection .data a:hover,
+.courses-section  #CoursesSection .read-more a:hover{
+    color: var(--theme-color);
+}
+.courses-section  #CoursesSection .data table h6{
+    font-size: 16px;
+}
+.courses-section  #CoursesSection .carousel-inner .carousel-item-end,
+.courses-section  #CoursesSection .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+.courses-section  #CoursesSection .read-more{
+    width: 100%;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+.courses-section  #CoursesSection .read-more a{
+    width: 90%;
+}
+.courses-section  #CoursesSection .read-more a{
+    transition: 0.3s ease-in-out;
+}
+/* Courses section */
+
+
+/* Exam section */
+.exam-section{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.exam-section  #ExamSection .carousel-inner .carousel-item.active,
+.exam-section  #ExamSection .carousel-inner .carousel-item-next,
+.exam-section  #ExamSection .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+.exam-section  #ExamSection .carousel-inner .carousel-item-end.active,
+.exam-section  #ExamSection .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+.exam-section  #ExamSection .carousel-inner .carousel-item-start.active, 
+.exam-section  #ExamSection .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
+.exam-section .title{
+    width: 94%;
+}
+.exam-section  .indicator-icon a{
+    padding: 10px;
+    background: var(--theme-color);
+    color: var(--white-color);
+}
+.exam-section .indicate{
+    align-items: center;
+}
+.exam-section  #ExamSection .card{
+    margin: 0 10px;
+}    
+.exam-section  #ExamSection .data table td{
+    padding: 4px;
+    border: none;
+}
+.exam-section  #ExamSection .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid var(--gray-color);
+    padding: 2px;
+}
+.exam-section  #ExamSection .image img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--light-gray);
+    border-radius: 50%;
+    object-fit: cover;
+}
+.exam-section  #ExamSection .data .badge{
+    background: var(--bg-gray);
+    color: var(--gray-color);
+    font-weight: 100;
+}
+.exam-section  #ExamSection .data a{
+    padding-left: 2px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.exam-section  #ExamSection .data a:hover,
+.exam-section  #ExamSection .read-more a:hover{
+    color: var(--theme-color);
+}
+.exam-section  #ExamSection .data table h6{
+    font-size: 16px;
+}
+.exam-section  #ExamSection .carousel-inner .carousel-item-end,
+.exam-section  #ExamSection .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+.exam-section  #ExamSection .read-more{
+    width: 100%;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+.exam-section  #ExamSection .read-more{
+    border-bottom: 1px solid var(--light-gray);
+}
+.exam-section  #ExamSection .read-more:last-child{
+    border: none;
+}
+.exam-section  #ExamSection .read-more a{
+    width: 90%;
+    font-weight: 500;
+}
+.exam-section  #ExamSection .read-more a{
+    transition: 0.3s ease-in-out;
+}
+/* Exam section */
 
 /* cbse Section */
 .cbse-section,
@@ -611,7 +773,6 @@ a{
     padding-top: 2em;
     padding-bottom: 2em;
     background: var(--bg-gray);
-    border-top: 1px solid var(--gray-color);
 }
 .cbse-section .badges,
 .top-course-section .badges{
@@ -635,3 +796,112 @@ a{
     background: var(--focus-btn) !important;
 }
 /* cbse Section */
+
+/* Exam section */
+.study-section{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.study-section  #StudySection .carousel-inner .carousel-item.active,
+.study-section  #StudySection .carousel-inner .carousel-item-next,
+.study-section  #StudySection .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+.study-section  #StudySection .carousel-inner .carousel-item-end.active,
+.study-section  #StudySection .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+.study-section  #StudySection .carousel-inner .carousel-item-start.active, 
+.study-section  #StudySection .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
+.study-section .title{
+    width: 94%;
+}
+.study-section  .indicator-icon a{
+    padding: 10px;
+    background: var(--theme-color);
+    color: var(--white-color);
+}
+.study-section .indicate{
+    align-items: center;
+}
+.study-section  #StudySection .data{
+    padding: 5px;
+}
+.study-section  #StudySection .card{
+    margin: 0 10px;
+}    
+.study-section  #StudySection .main-information .row{
+    align-items: center !important;
+}
+.study-section  #StudySection .main-information .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid var(--gray-color);
+    padding: 2px;
+}
+.study-section  #StudySection .main-information .image img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--light-gray);
+    border-radius: 50%;
+    object-fit: cover;
+}
+.study-section  #StudySection .data .main-information {
+    padding-left: 2px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.study-section  #StudySection .data .main-information a{
+    color: var(--black-color);
+    transition: 0.3s ease-in-out;
+    font-weight: normal !important;
+}
+.study-section  #StudySection .sub-information .image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.study-section  #StudySection .sub-information .image img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--light-gray);
+    border-radius: 50%;
+    object-fit: cover;
+}
+.study-section  #StudySection .sub-information .left-data,
+.study-section  #StudySection .sub-information .right-data{
+    align-items: center;
+}
+.study-section  #StudySection .data a:hover,
+.study-section  #StudySection .read-more a:hover{
+    color: var(--theme-color);
+}
+.exam-section  #StudySection .data table h6{
+    font-size: 16px;
+}
+.study-section  #StudySection .carousel-inner .carousel-item-end,
+.study-section  #ExamSection .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+.study-section  #StudySection .read-more{
+    width: 100%;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+.study-section  #StudySection .read-more{
+    border-bottom: 1px solid var(--light-gray);
+}
+.study-section  #StudySection .read-more:last-child{
+    border: none;
+}
+.study-section  #StudySection .read-more a{
+    width: 90%;
+    font-weight: 500;
+}
+.study-section  #StudySection .read-more a{
+    transition: 0.3s ease-in-out;
+}
+/* Exam section */
