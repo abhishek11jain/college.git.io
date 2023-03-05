@@ -35,6 +35,7 @@ a{
     --focus-btn : #d5d5d5;
     --gray-color : #aeaeae;
     --bg-gray : #f5f8f9;
+    --theme-light : #fce9d2;
 }
 
 .container-fluid{
@@ -203,7 +204,7 @@ a{
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(249, 249, 249, 0.262));
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(24, 24, 24, 0.656));
     opacity: .7;
 }
 /* slider section */
@@ -638,13 +639,14 @@ a{
     margin: 0 10px;
 }    
 .courses-section  #CoursesSection .data table td{
-    padding: 4px;
+    padding: 1px;
     border: none;
 }
 .courses-section  #CoursesSection .data .badge{
     background: var(--bg-gray);
-    color: var(--gray-color);
+    color: var(--black-color);
     font-weight: 100;
+    font-size: 12px !important;
 }
 .courses-section  #CoursesSection .data a{
     padding-left: 2px;
@@ -709,7 +711,7 @@ a{
     margin: 0 10px;
 }    
 .exam-section  #ExamSection .data table td{
-    padding: 4px;
+    padding: 1px;
     border: none;
 }
 .exam-section  #ExamSection .image {
@@ -728,8 +730,9 @@ a{
 }
 .exam-section  #ExamSection .data .badge{
     background: var(--bg-gray);
-    color: var(--gray-color);
-    font-weight: 100;
+    color: var(--black-color);
+    font-size: 13px !important;
+    font-weight: 300;
 }
 .exam-section  #ExamSection .data a{
     padding-left: 2px;
@@ -750,7 +753,7 @@ a{
 .exam-section  #ExamSection .read-more{
     width: 100%;
     align-items: center;
-    padding: 0 0 0 10px;
+    padding: 5px !important;
 }
 .exam-section  #ExamSection .read-more{
     border-bottom: 1px solid var(--light-gray);
@@ -797,7 +800,7 @@ a{
 }
 /* cbse Section */
 
-/* Exam section */
+/* Study section */
 .study-section{
     margin-top: 2em;
     margin-bottom: 2em;
@@ -835,6 +838,9 @@ a{
 .study-section  #StudySection .main-information .row{
     align-items: center !important;
 }
+.study-section  #StudySection .main-information .text{
+    padding-left: 10px;
+}
 .study-section  #StudySection .main-information .image {
     width: 80px;
     height: 80px;
@@ -862,6 +868,7 @@ a{
 .study-section  #StudySection .sub-information .image {
     width: 40px;
     height: 40px;
+    margin-right: 5px;
     border-radius: 50%;
 }
 .study-section  #StudySection .sub-information .image img{
@@ -875,6 +882,16 @@ a{
 .study-section  #StudySection .sub-information .right-data{
     align-items: center;
 }
+.study-section  #StudySection .sub-information .left-data{
+    justify-content: flex-start;
+}
+.study-section  #StudySection .sub-information .right-data{
+    justify-content: flex-end;
+}
+.study-section  #StudySection .sub-information .left-data .text p,
+.study-section  #StudySection .sub-information .right-data .text p{
+    font-size: 11px;
+}
 .study-section  #StudySection .data a:hover,
 .study-section  #StudySection .read-more a:hover{
     color: var(--theme-color);
@@ -886,22 +903,95 @@ a{
 .study-section  #ExamSection .carousel-inner .carousel-item-start { 
     transform: translateX(0);
 }
-.study-section  #StudySection .read-more{
-    width: 100%;
-    align-items: center;
-    padding: 0 0 0 10px;
+.study-section  #StudySection .guide{
+    padding: 1px;
+    padding: 5px 0 10px 4px;
 }
 .study-section  #StudySection .read-more{
     border-bottom: 1px solid var(--light-gray);
+    width: 100%;
+    align-items: center;
+    padding: 0 0 0 10px;
 }
 .study-section  #StudySection .read-more:last-child{
     border: none;
 }
 .study-section  #StudySection .read-more a{
     width: 90%;
-    font-weight: 500;
+    font-weight: 300;
 }
 .study-section  #StudySection .read-more a{
     transition: 0.3s ease-in-out;
 }
-/* Exam section */
+/* Study section */
+
+/* Place section */
+.place-section{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.place-section  #PlaceSection .carousel-inner .carousel-item.active,
+.place-section  #PlaceSection .carousel-inner .carousel-item-next,
+.place-section  #PlaceSection .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+.place-section  #PlaceSection .carousel-inner .carousel-item-end.active,
+.place-section  #PlaceSection .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+.place-section  #PlaceSection .carousel-inner .carousel-item-start.active, 
+.place-section  #PlaceSection .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
+.place-section .title{
+    width: 94%;
+}
+.place-section  .indicator-icon a{
+    padding: 10px;
+    background: var(--theme-color);
+    color: var(--white-color);
+}
+.place-section .indicate{
+    align-items: center;
+}
+.place-section  #PlaceSection .card{
+    margin: 0 10px;
+    height: 150px;
+    width: 150px;
+    padding: 30px !important;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+} 
+.place-section  #PlaceSection .card:hover{
+    background: var(--light-gray);
+}
+.place-section  #PlaceSection .image img{
+    object-fit: cover;
+}
+.place-section  #PlaceSection h5{
+    font-size: 13px;
+    color: var(--black-color) !important;
+    margin-top: 20px;
+}
+/* Place section */
+
+/* Advertice section */
+.advertice-section .container{
+    padding: 10px;
+    border-radius: 10px;
+    background: var(--theme-light);
+}
+.advertice-section .row{
+    align-items: center;
+}
+.advertice-section .text{
+    align-items: center;
+}
+.advertice-section .text a{
+    margin-left: 1em;
+    border: none !important;
+    background: var(--theme-color) !important;
+    color: var(--white-color);
+    padding: 15px 30px 15px 30px;
+}
+/* Advertice section */

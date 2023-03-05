@@ -17,7 +17,7 @@
         font-size: 1em !important;
     }
     .slider-section .carousel-item{
-        height: 40ch !important;
+        height: 26ch !important;
     }
     .caption-section{
         margin-top: -10em !important;
@@ -106,5 +106,90 @@
     .exam-section .title,
     .study-section .title{
         width: 80% !important;
+    }
+    .study-section  #StudySection .sub-information .left-data .text p,
+    .study-section  #StudySection .sub-information .right-data .text p{
+        font-size: 9px !important;
+    }
+    .study-section  #StudySection .sub-information .left-data .text h6,
+    .study-section  #StudySection .sub-information .right-data .text h6{
+        font-size: 10px !important;
+    }
+    .study-section #StudySection .main-information .image{
+        height: 70px !important;
+        width: 70px !important;
+    }
+    .advertice-section .text{
+        display: block !important;
+    }
+    .mobile-header-section{
+        position: absolute;
+        width: 98%;
+        padding: 15px 0;
+        z-index: 2;
+    }
+    .mobile-header-section .toggle-button{
+        justify-content: flex-start;
+        margin-right: 20px;
+    }
+    .mobile-header-section .search-button{
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+    .mobile-header-section .toggle-button a,
+    .mobile-header-section .search-button a{
+        color: var(--white-color);
+        font-size: 20px;
+    }
+    .mobile-caption-section{
+        position: absolute;
+        z-index: 2;
+        padding: 15px 0;
+        top: 8%;
+    }
+    .mobile-caption-section .search-box .btn{
+        margin-left: 1%;
+        font-size: 11px;
+        text-align: left;
+        border: 1px solid var(--black-color) !important;
+        background: var(--black-color) !important;
+    }
+    .mobile-caption-section .form-section h6{
+        color: var(--white-color);
+        margin-top: 10px;
+    }
+    .mobile-caption-section .search-bar{
+        position: relative;
+        border-radius: 4px;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDUxIDQ1MSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDUxIDQ1MTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZmlsbD0iI2FkYjViZCIgZD0iTTQ0Ny4wNSw0MjhsLTEwOS42LTEwOS42YzI5LjQtMzMuOCw0Ny4yLTc3LjksNDcuMi0xMjYuMUMzODQuNjUsODYuMiwyOTguMzUsMCwxOTIuMzUsMEM4Ni4yNSwwLDAuMDUsODYuMywwLjA1LDE5Mi4zDQoJCXM4Ni4zLDE5Mi4zLDE5Mi4zLDE5Mi4zYzQ4LjIsMCw5Mi4zLTE3LjgsMTI2LjEtNDcuMkw0MjguMDUsNDQ3YzIuNiwyLjYsNi4xLDQsOS41LDRzNi45LTEuMyw5LjUtNA0KCQlDNDUyLjI1LDQ0MS44LDQ1Mi4yNSw0MzMuMiw0NDcuMDUsNDI4eiBNMjYuOTUsMTkyLjNjMC05MS4yLDc0LjItMTY1LjMsMTY1LjMtMTY1LjNjOTEuMiwwLDE2NS4zLDc0LjIsMTY1LjMsMTY1LjMNCgkJcy03NC4xLDE2NS40LTE2NS4zLDE2NS40QzEwMS4xNSwzNTcuNywyNi45NSwyODMuNSwyNi45NSwxOTIuM3oiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K) 15px center / 15px no-repeat rgb(255, 255, 255);
+        border: none;
+        outline: none;
+        box-shadow: rgb(0 0 0 / 29%) 0px 0px 20px;
+        padding: 0px 6px 0px 45px;
+        font-size: 12px;
+        color: rgb(173, 181, 189);
+        text-align: left;
+        display: block;
+        height: 40px;
+        width: 100%;
+        margin: 12px 0px;
+    }
+    .mobile-caption-section .counslting-btn{
+        align-items: center;
+        margin-top: 10px;
+    }
+    .mobile-caption-section .text a{
+        color: var(--white-color);
+        font-size: 13px;
+    }
+    .mobile-caption-section .button-section{
+        margin-left: auto;
+    }
+    .mobile-caption-section .button-section a{
+        font-size: 10px;
+        border: none;
+        padding: 2px 10px 2px 10px;
+        background: var(--theme-color);
+        border-radius: 50px ;
     }
 }
