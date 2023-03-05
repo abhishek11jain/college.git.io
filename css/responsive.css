@@ -122,6 +122,13 @@
     .advertice-section .text{
         display: block !important;
     }
+    .advertice-section .text h4{
+        font-size: 18px;
+    }
+    .advertice-section .text a{
+        margin-left: 0 !important;
+        padding: 5px 15px 5px 15px !important;
+    }
     .mobile-header-section{
         position: absolute;
         width: 98%;
@@ -191,5 +198,24 @@
         padding: 2px 10px 2px 10px;
         background: var(--theme-color);
         border-radius: 50px ;
+    }
+    .place-section .title{
+        width: 80% !important;
+    }
+    .footer-section .mid-footer span{
+        padding-left: 13px;
+    }
+    .footer-section .mid-footer .links{
+        text-align: center !important;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .footer-section .buttons{
+        display: block !important;
+        text-align: center !important;
+    }
+    .footer-section .bottom-footer .text p{
+        font-size: 10px;
+        margin-top: 10px;
     }
 }

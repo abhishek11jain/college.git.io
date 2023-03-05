@@ -995,3 +995,46 @@ a{
     padding: 15px 30px 15px 30px;
 }
 /* Advertice section */
+
+/* Footer Section */
+.footer-section{
+    padding: 20px;
+    background: #f4f4f4;
+}
+.footer-section .title h6{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer-section .links p{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.footer-section .links p a{
+    transition: 0.3s ease-in-out;
+}
+.footer-section .links p a:hover{
+    color: var(--theme-color);
+}
+.footer-section .col-flex .ml-auto{
+    margin-left: auto;
+}
+.footer-section .mid-footer span:first-child{
+    padding-left: 0;
+}
+.footer-section .mid-footer span{
+    padding-left: 13px;
+}
+.footer-section .bottom-footer .copyright{
+    align-items: center;
+}
+.footer-section .bottom-footer .text p{
+    padding-left: 10px;
+    text-align: center;
+}
+.footer-section .bottom-footer .button{
+    align-items: center;
+}
+.footer-section .buttons{
+    margin-left: auto;
+}
+/* Footer Section */
