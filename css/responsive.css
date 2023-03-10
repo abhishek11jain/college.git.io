@@ -96,7 +96,7 @@
     {
         font-size: 12px !important;
     }
-    .univercity-section #UnivercitySection .card,
+    .university-section #UniversitySection .card,
     .courses-section #CoursesSection .card,
     .exam-section #ExamSection .card,
     .study-section #StudySection .card{
@@ -107,7 +107,7 @@
         white-space: nowrap !important;
         width: 80% !important;
     }
-    .univercity-section .title,
+    .university-section .title,
     .exam-section .title,
     .study-section .title{
         width: 80% !important;

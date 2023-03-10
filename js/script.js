@@ -79,13 +79,13 @@ gtag('config', 'G-LLWL5N9CSM');
 
 // -----------------------------
 
-let carouselunivercity = document.querySelectorAll('#UnivercitySection .carousel .carousel-item');
-carouselunivercity.forEach((el) => {
+let carouseluniversity = document.querySelectorAll('#UniversitySection .carousel .carousel-item');
+carouseluniversity.forEach((el) => {
   const minPerSlide = 4
   let next = el.nextElementSibling
   for (var i=1; i<minPerSlide; i++) {
     if (!next) {
-      next = carouselunivercity[0]
+      next = carouseluniversity[0]
     }
     let cloneChild = next.cloneNode(true)
     el.appendChild(cloneChild.children[0])
