@@ -1206,4 +1206,9 @@ a{
     color: var(--black-color) !important;
     font-size: 11px !important;
 }
+.onload-popup #login .content .btn-submit .btn{
+    color: var(--white-color) !important;
+    background: var(--theme-color) !important;
+    border: none !important;
+}
 /* Onload Popup */
