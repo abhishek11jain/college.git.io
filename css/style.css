@@ -1192,4 +1192,18 @@ a{
     font-weight: lighter;
     letter-spacing: 1px;
 }
+
+.onload-popup #login .content h6{
+    color: var(--theme-color);
+    font-weight: 500;
+    font-size: 15px !important;
+}
+.onload-popup #login .content p{
+    font-size: 11px;
+    margin-top: 10px;
+}
+.onload-popup #login .content .fs{
+    color: var(--black-color) !important;
+    font-size: 11px !important;
+}
 /* Onload Popup */

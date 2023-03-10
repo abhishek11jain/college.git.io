@@ -246,4 +246,7 @@
         font-size: 15px !important;
         text-align: left !important;
     }
+    .onload-popup #login .p-5{
+        padding: 1.8rem !important;
+    }
 }
