@@ -37,6 +37,7 @@ a{
     --bg-gray : #f5f8f9;
     --theme-light : #fce9d2;
     --dark-bg : #323c4f;
+    --sky : #4fb8dd ;
 }
 
 .container-fluid{
@@ -1192,4 +1193,126 @@ a{
     font-weight: lighter;
     letter-spacing: 1px;
 }
+
+.onload-popup #login .content h6{
+    color: var(--theme-color);
+    font-weight: 500;
+    font-size: 15px !important;
+}
+.onload-popup #login .content p{
+    font-size: 11px; 
+    margin-top: 10px;
+}
+.onload-popup #login .content .fs{
+    color: var(--black-color) !important;
+    font-size: 11px !important;
+}
+.onload-popup #login .content .btn-submit .btn{
+    color: var(--white-color) !important;
+    background: var(--theme-color) !important;
+    border: none !important;
+}
 /* Onload Popup */
+
+
+
+/*=============== UNIVERCITY PAGE ===============*/
+/* Header */
+.p-relative{
+    position: relative !important;
+}
+.p-relative .topbar-section{
+    background: var(--dark-bg);
+    padding: 10px;
+    padding-top: 0 !important;
+}
+.p-relative .topbar-section ul li:active a{
+    color: var(--sky) !important;
+}
+/* Header */
+
+/* Nanbar */
+.p-relative .navbar-section .btn{
+    border: 1px solid var(--black-color) !important;
+    color: var(--black-color);
+}
+.p-relative .navbar-section .menu-name,
+.p-relative .navbar-section .nav-link{
+    color: var(--black-color) !important;
+}
+/* Nanbar */
+
+/* Breadcrumb */
+.bread-crumb{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.bread-crumb .sky-color{
+    color: var(--sky);
+}
+.bread-crumb .heading h5{
+    color: var(--theme-color);
+    padding-top: 10px;
+}
+.bread-crumb .hording .image{
+    height: 12ch;
+}
+.bread-crumb .hording .image img{
+    height: 100%;
+    width: 100%;
+}
+/* Breadcrumb */
+
+/* Notification */
+.notification-section{
+    padding-bottom: 1em;
+}
+.notification-section .content{
+    padding: 15px;
+    background: var(--white-color);
+}
+.notification-section .title h6{
+    font-size: 14px;
+}
+.notification-section .sky-color{
+    color: var(--sky);
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.notification-section .sky-color:hover{
+    color: var(--black-color);
+}
+/* Notification */
+
+
+/* Table-view Section */
+.table-section {
+    padding-bottom: 1em;
+}
+.table-section .filter{
+    padding: 1em;
+    white-space: nowrap;
+    overflow: auto;
+    background: var(--white-color);
+}
+.table-section .filter::-webkit-scrollbar{
+    height: 4px;
+}
+.table-section .filter::-webkit-scrollbar-thumb {
+    background-color: var(--gray-color);
+  }
+.table-section .filter .btn{
+    overflow: none !important;
+    box-shadow: none !important;
+    margin: 0 6px;
+    color: var(--gray-color);
+    border-color: var(--light-gray);
+    border-radius: 50px ;
+}
+.table-section .filter .btn select{
+    border: none;
+}
+.table-section .filter .btn:focus{
+    outline: none !important;
+}
+/* Table-view Section */

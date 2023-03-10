@@ -1,8 +1,8 @@
 :root{
     --font-theme : 'PT Sans', sans-serif;
     --theme-color : #ec7c1c;
-    --theme-transparent-color : #ff79001a;
     --black-color : #000000;
+    --light-black-color : #000000a1;
     --white-color : #ffffff;
     --light-gray : #f2f2f2;
     --yellow-color : #f1b60f;
@@ -10,6 +10,11 @@
     --transparent-black : #0000000f;
     --transparent-white : #ffffff34;
     --focus-btn : #d5d5d5;
+    --gray-color : #aeaeae;
+    --bg-gray : #f5f8f9;
+    --theme-light : #fce9d2;
+    --dark-bg : #323c4f;
+    --sky : #4fb8dd ;
 }
 
 @media only screen and (max-width : 767px){
@@ -131,7 +136,7 @@
     }
     .mobile-header-section{
         position: absolute;
-        width: 98%;
+        width: 100%;
         padding: 15px 0;
         z-index: 2;
     }
@@ -245,5 +250,31 @@
     .onload-popup .register .text h6{
         font-size: 15px !important;
         text-align: left !important;
+    }
+    .onload-popup #login .p-5{
+        padding: 1.8rem !important;
+    }
+
+
+    /* ============================= */
+
+    .mobile-header{
+        background: var(--dark-bg);
+    }
+    .bread-crumb .heading h5{
+        font-size: 15px !important;
+        color: var(--black-color) !important;
+    }
+    .bread-crumb .breadcrumb-item{
+        font-size: 10px !important;
+    }
+    .notification-section p{
+        font-size: 12px !important;
+    }
+    .table-section .filter{
+        padding: 0.5em !important;
+    }
+    .table-section .filter .btn{
+        font-size: 10px;
     }
 }
