@@ -365,13 +365,15 @@
                 <div class="container-fluid">
                     <!-- filter Start -->
                         <div class="filter">
-                            <button class="btn bg-white border">
-                                <select name="" id="">
-                                <option selected disabled>Short By</option>
-                                <option></option>
-                                <option></option>
-                                </select>
-                            </button>
+                           <!-- dropdown -->
+                            <button class="btn bg-white border dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Short
+                                </button>
+
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#"> </button>
+                            </div>
+                            <!-- dropdown -->
 
                             <button class="btn bg-white border"> <i class="fa fa-filter" aria-hidden="true"></i> Apply Filter </button>
                             
@@ -527,9 +529,325 @@
 
                         </div>
                     <!-- filter End -->
+
+                    <!-- Table View Start -->
+                        <div class="table-view">
+                            <div class="header">
+                                <div class="row">
+                                    <div class="col-lg-9 col-sm-8 col-8">
+                                        <div class="title">
+                                            <h6 class=" mb-0">Found 18970 Colleges</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-4 col-4">
+                                        <div class="filter-btn">
+                                            <ul class="d-flex mb-0">
+                                                <li><a href="#"><i class="fa fa-list" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a></li>
+                                                <li class="active-color"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <div class="table-responsive">
+                                    <table class="table mb-0 table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>CD Rank</th>
+                                                <th>Colleges</th>
+                                                <th>Total Fees</th>
+                                                <th>User Reviews</th>
+                                                <th>Ranking</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>#1</td>
+                                                <td width="460">
+                                                    <span class="college-detail">
+                                                        <ul class="d-flex">
+                                                            <li>
+                                                                <a href="#"><img src="https://i.pinimg.com/736x/5f/7a/ff/5f7aff7fcf3ebcfaf8038b480a5b51c8.jpg" class="img-responsive" width="60"  data-toggle="tooltip" data-placement="top" title="IIM Bangalore - Indian Institute of Management"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="college-name">IIM Bangalore - Indian Institute of Management, Banglore</a>
+                                                                <p class="address mb-1">Bangalore, Karnataka | AICTE, UGC Approved</p>
+                                                            </li>
+                                                        </ul>
+                                                    </span>
+                                                    <span>
+                                                        <a href="#" class="buttons text-warning"><i class="fa fa-arrow-right" aria-hidden="true"></i> Apply Now</a>
+                                                        <a href="#" class="buttons text-success"><i class="fa fa-download" aria-hidden="true"></i> College Info</a>
+                                                        <a href="#" class="buttons text-black"><i class="fa fa-square-o" aria-hidden="true"></i> Add To Compare</a>
+                                                    </span>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-1"> <a href="#" class="amount text-success"> ₹ 2,450,000 </a> </p>
+                                                    <p class="mb-1"> <a href="#" class="course text-black"> MBA / PGDM - Total Fees </a>  </p>
+                                                    <p class="mb-1"> <a href="#" class="detail-fees text-info"> Get Detailed Fees </a> </p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0"> <a href="#" class="rating">9.1 / 10</a> </p>
+                                                    <p class="mb-0"> <a href="#" class="review text-black"> Based on 73 User Reviews </a>  </p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0"> <a href="#" class="ranking text-black">#1<sup>st</sup><span> 50</span> in India</a> </p>
+                                                    <p class="mb-0"><a href="#" class="text-black year"><img src="https://images.collegedunia.com/public/college_data/images/agencyLogo/resize_1600160678372292574financialexpresslogo1600160698.png?mode=stretch" class="img-responsive" width="45"> 2019</a></p>
+                                                </td>
+                                            </tr>
+                                            <tr class="bg-theme">
+                                                <td>#2</td>
+                                                <td width="460">
+                                                    <span class="college-detail">
+                                                        <p class="badge">Feature</p>
+                                                        <ul class="d-flex">
+                                                            <li>
+                                                                <a href="#"><img src="https://i.pinimg.com/736x/5f/7a/ff/5f7aff7fcf3ebcfaf8038b480a5b51c8.jpg" class="img-responsive" width="60"  data-toggle="tooltip" data-placement="top" title="IIM Bangalore - Indian Institute of Management"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="college-name">IIM Bangalore - Indian Institute of Management, Banglore</a>
+                                                                <p class="address mb-1">Bangalore, Karnataka | AICTE, UGC Approved</p>
+                                                            </li>
+                                                        </ul>
+                                                    </span>
+                                                    <span>
+                                                        <a href="#" class="buttons text-warning"><i class="fa fa-arrow-right" aria-hidden="true"></i> Apply Now</a>
+                                                        <a href="#" class="buttons text-success"><i class="fa fa-download" aria-hidden="true"></i> College Info</a>
+                                                        <a href="#" class="buttons text-black"><i class="fa fa-square-o" aria-hidden="true"></i> Add To Compare</a>
+                                                    </span>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-1"> <a href="#" class="amount text-success"> ₹ 2,450,000 </a> </p>
+                                                    <p class="mb-1"> <a href="#" class="course text-black"> MBA / PGDM - Total Fees </a>  </p>
+                                                    <p class="mb-1"> <a href="#" class="detail-fees text-info"> Get Detailed Fees </a> </p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0"> <a href="#" class="rating">9.1 / 10</a> </p>
+                                                    <p class="mb-0"> <a href="#" class="review text-black"> Based on 73 User Reviews </a>  </p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0"> <a href="#" class="ranking text-black">#1<sup>st</sup><span> 50</span> in India</a> </p>
+                                                    <p class="mb-0"><a href="#" class="text-black year"><img src="https://images.collegedunia.com/public/college_data/images/agencyLogo/resize_1600160678372292574financialexpresslogo1600160698.png?mode=stretch" class="img-responsive" width="45"> 2019</a></p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Table View End -->
                 </div>
             </section>
         <!-- Table View Section End -->
+
+        <!-- Column View Start -->
+            <section class="column-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-4 col-12 d-none d-lg-block">
+                            <!-- Side Filter Start -->
+                                <div class="filter">
+                                   <div data-sticky>
+                                         <!-- Fix-header Start -->
+                                            <div class="header d-flex">
+                                                <div class="title">
+                                                    <h6 class="mb-0">FOUND 18970  COLLEGES</h6>
+                                                </div>
+                                                <div class="default">
+                                                    <a href="#">SET DEFAULT</a>
+                                                </div>
+                                            </div>
+                                        <!-- Fix-header End-->
+
+                                        <!-- Accordion Start -->
+                                            <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="streamOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#stream" aria-expanded="true" aria-controls="stream">
+                                                Stream
+                                                </button>
+                                                </h2>
+                                                <div id="stream" class="accordion-collapse collapse show" aria-labelledby="streamOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="stateOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#state" aria-expanded="true" aria-controls="state">
+                                                State
+                                                </button>
+                                                </h2>
+                                                <div id="state" class="accordion-collapse collapse show" aria-labelledby="stateOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="cityOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#city" aria-expanded="true" aria-controls="city">
+                                                City
+                                                </button>
+                                                </h2>
+                                                <div id="city" class="accordion-collapse collapse show" aria-labelledby="cityOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="courseOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#course" aria-expanded="true" aria-controls="course">
+                                                Course
+                                                </button>
+                                                </h2>
+                                                <div id="course" class="accordion-collapse collapse show" aria-labelledby="courseOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="programOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#program" aria-expanded="true" aria-controls="program">
+                                                Program Type
+                                                </button>
+                                                </h2>
+                                                <div id="program" class="accordion-collapse collapse show" aria-labelledby="programOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="collegetypeOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collegetype" aria-expanded="true" aria-controls="collegetype">
+                                                Type Of College
+                                                </button>
+                                                </h2>
+                                                <div id="collegetype" class="accordion-collapse collapse show" aria-labelledby="collegetypeOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="entranceOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#entrance" aria-expanded="true" aria-controls="entrance">
+                                                Entrance / Exam Accepted
+                                                </button>
+                                                </h2>
+                                                <div id="entrance" class="accordion-collapse collapse show" aria-labelledby="entranceOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="feesOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#fees" aria-expanded="true" aria-controls="fees">
+                                                Avg Fee Per Year [IN RUPEE]
+                                                </button>     
+                                                </h2>
+                                                <div id="fees" class="accordion-collapse collapse show" aria-labelledby="feesOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>    
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="coursetypeOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#coursetype" aria-expanded="true" aria-controls="coursetype">
+                                                Course Type
+                                                </button>
+                                                </h2>
+                                                <div id="coursetype" class="accordion-collapse collapse show" aria-labelledby="coursetypeOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="agencyOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#agency" aria-expanded="true" aria-controls="agency">
+                                                Agency
+                                                </button>
+                                                </h2>
+                                                <div id="agency" class="accordion-collapse collapse show" aria-labelledby="agencyOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="affliationOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#affliation" aria-expanded="true" aria-controls="affliation">
+                                                Affliation
+                                                </button>
+                                                </h2>
+                                                <div id="affliation" class="accordion-collapse collapse show" aria-labelledby="affliationOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="durationOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#duration" aria-expanded="true" aria-controls="duration">
+                                                Cource Duration [IN YEARS]
+                                                </button>
+                                                </h2>
+                                                <div id="duration" class="accordion-collapse collapse show" aria-labelledby="durationOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="categoryOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#category" aria-expanded="true" aria-controls="category">
+                                                College Category
+                                                </button>
+                                                </h2>
+                                                <div id="category" class="accordion-collapse collapse show" aria-labelledby="categoryOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="genderOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#gender" aria-expanded="true" aria-controls="gender">
+                                                Gender Accepted
+                                                </button>     
+                                                </h2>
+                                                <div id="gender" class="accordion-collapse collapse show" aria-labelledby="genderOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    This is the first item's accordion body.
+                                                </div>
+                                                </div>
+                                            </div>                                                                                  
+                                            </div>
+                                        <!-- Accordion End -->
+                                   </div>
+                                </div>
+                            <!-- Side Filter End -->
+                        </div>
+                        <div class="col-lg-9 col-sm-8 col-12">
+                            <!-- header-filter Start -->
+                                <div class="header-filter">
+
+                                </div>
+                            <!-- header-filter End -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- Column View End -->
 
         <!-- Footer section Start -->
             <section class="footer-section">
