@@ -1264,6 +1264,7 @@ a{
 }
 /* Breadcrumb */
 
+
 /* Notification */
 .notification-section{
     padding-bottom: 1em;
@@ -1285,186 +1286,194 @@ a{
 }
 /* Notification */
 
-
-/* Table-view Section */
-.table-section {
-    padding-bottom: 1em;
-}
-.table-section .filter{
-    padding: 1em;
-    white-space: nowrap;
-    overflow: auto;
-    background: var(--white-color);
-}
-.table-section .filter::-webkit-scrollbar{
-    height: 4px;
-}
-.table-section .filter::-webkit-scrollbar-thumb {
-    background-color: var(--gray-color);
-  }
-.table-section .filter .btn{
-    overflow: none !important;
-    box-shadow: none !important;
-    margin: 0 6px;
-    color: var(--gray-color);
-    border-color: var(--light-gray);
-    border-radius: 50px ;
-}
-.table-section .filter .btn select{
-    border: none;
-}
-.table-section .filter .btn:focus{
-    outline: none !important;
-}
-.table-section .table-view {
-    margin-top: 1em;
-    background: var(--white-color);
-}
-.table-section .table-view .row{
-    align-items: center;
-}
-.table-section .table-view .header{
-    padding: 1em;
-    border-bottom: 1px solid var(--light-gray);
-}
-.table-section .table-view .title h6{
-    font-size: 14px;
-}
-.table-section .table-view .filter-btn ul {
-    justify-content: end;
-}
-.table-section .table-view .filter-btn ul li {
-    padding-right: 1em;
-}
-.table-section .table-view .filter-btn a{
-    transition: .2s ease-in-out;
-    font-size: 14px;
-}
-.table-section .table-view .filter-btn a:hover{
-    color: var(--theme-color);
-}
-.table-section .table-view .filter-btn .active-color a{
-    color: var(--theme-color);
-}
-.table-section .table-view .details{
-    padding: 1em;
-}
-.table-section .table-view .table-responsive{
-    border-radius: 10px;
-    border: 1px solid var(--light-gray);
-}
-.table-section .table-view table thead{
-    background: var(--dark-bg);
-}
-.table-section .table-view table thead tr th{
-    color: var(--white-color);
-    font-size: 14px;
-    font-weight: 400;
-}
-.table-section .table-view table tbody tr td{
-    padding: 10px;
-}
-.table-section .table-view table .college-detail ul{
-    padding-left: 0;
-    align-items: center;
-    margin-bottom: 0.2em;
-}
-.table-section .table-view table .college-detail ul li:first-child{
-    padding-left: 0;
-}
-.table-section .table-view table .college-detail ul li{
-    padding-left: 1em;
-}
-.table-section .table-view table .college-detail ul li img{
-    border-radius: 50%;
-}
-.table-section .table-view table .college-detail .badge{
-    background: var(--theme-color);
-    border-radius: 0;
-    margin-bottom: 0;
-}
-.table-section .table-view table .college-name{
-    color: var(--theme-color);
-}
-.table-section .table-view table .bg-theme{
-    background: var(--feature-section);
-}
-.table-section .table-view table .address{
-    font-size: 10px;
-}
-.table-section .table-view table .buttons{
-    padding-right: 4em;
-    font-size: 13px;
-}
-.table-section .table-view table .amount{
-    font-weight: 500;
-    font-size: 18px;
-}
-.table-section .table-view table .course{
-    font-size: 10px;
-}
-.table-section .table-view table .detail-fees{
-    font-size: 14px;
-    font-weight: 300;
-}
-.table-section .table-view table .rating{
-    color: var(--theme-color);
-}
-.table-section .table-view table .review{
-    font-size: 10px;
-}
-.table-section .table-view table .ranking,
-.table-section .table-view table .year{
-    font-size: 15px;
-}
-.table-section .table-view table .ranking span{
-    color: var(--theme-color);
-}
-/* Table-view Section */
-
 /* Column-view Section */
-.column-section {
+.list-section {
     padding-bottom: 1em;
 }
-.column-section .filter{
+.list-section .filter{
     background: var(--white-color);
 }
-.column-section .filter .sticky{
+.list-section .filter .sticky{
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-
 }
-.column-section .filter .header{
+.list-section .filter .header{
     padding: 10px;
     align-items: center;
 }
-.column-section .filter .title h6{
+.list-section .filter .title h6{
     font-size: 12px;
 }
-.column-section .filter .default{
+.list-section .filter .default{
     margin-left: auto;
 }
-.column-section .filter .default a{
+.list-section .filter .default a{
     font-size: 12px;
     color: var(--theme-color);
 }
-.column-section .filter .accordion-item,
-.column-section .filter .accordion-button{
+.list-section .filter .accordion-item,
+.list-section .filter .accordion-button{
     border: none;
     border-radius: 0;
 }
-.column-section .filter .accordion-button{
+.list-section .filter .accordion-button{
     background: var(--bg-gray);
     color: var(--black-color);
     font-size: 13px;
     padding: 12px;
 }
-.column-section .filter .accordion-body{
+.list-section .filter .accordion-body{
     padding: 10px;
 }
-.column-section .filter .accordion {
+.list-section .filter .accordion {
     --bs-accordion-btn-icon-width: .75rem;
     color: var(--black-color);
+}
+.list-section .filter .form-control{
+    border-radius: 0%;
+    font-size: 12px;
+    border-color: var(--light-gray);
+}
+.list-section .filter .form-control::placeholder{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.list-section .filter .checkbox-data{
+    height: 15ch;
+    overflow: auto;
+}
+.list-section .filter .h-none{
+    height: auto !important;
+}
+.list-section .filter .checkbox-data::-webkit-scrollbar,
+.list-section .header-filter .sort .buttons .dropdown-menu::-webkit-scrollbar {
+    width: 3px;
+}
+.list-section .filter .checkbox-data::-webkit-scrollbar-thumb,
+.list-section .header-filter .sort .buttons .dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: var(--gray-color);
+}
+.list-section .filter .checkbox-data .form-check{
+    font-size: 11px;
+    min-height: 0.2rem;
+}
+.list-section .filter .checkbox-data .form-check-label{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.list-section .filter .checkbox-data .form-check-label:hover{
+    color: var(--theme-color);
+    font-weight: 500;
+}
+.list-section .header-filter .stream,
+.list-section .header-filter .course,
+.list-section .header-filter .state{
+    padding: 8px 10px 8px 30px;
+    align-items: center;
+    background: var(--white-color);
+}
+.list-section .header-filter .stream .title h6,
+.list-section .header-filter .course .title h6,
+.list-section .header-filter .sort .title h6,
+.list-section .header-filter .state .title h6{
+    font-size: 13px; 
+    padding-right: 10px;
+    border-right: 1px solid var(--gray-color);
+}
+.list-section .header-filter .stream .buttons,
+.list-section .header-filter .course .buttons,
+.list-section .header-filter .sort .buttons,
+.list-section .header-filter .state .buttons{
+    margin-left: 1.5%;
+}
+.list-section .header-filter .stream .buttons .btn,
+.list-section .header-filter .course .buttons .btn,
+.list-section .header-filter .sort .buttons .btn,
+.list-section .header-filter .state .buttons .btn{
+    background: var(--focus-btn);
+    transition: 0.3s ease-in-out;
+    border-radius: 30px;
+    border: none !important;
+    font-size: 14px;
+    padding: 2px;
+}
+.list-section .header-filter .stream .buttons .badge .fa,
+.list-section .header-filter .course .buttons .badge .fa,
+.list-section .header-filter .sort .buttons .badge .fa,
+.list-section .header-filter .state .buttons .badge .fa{
+    font-size: xx-small;
+    color: var(--theme-color);
+    padding-right: 5px;
+}
+.list-section .header-filter .stream .buttons .badge,
+.list-section .header-filter .course .buttons .badge,
+.list-section .header-filter .sort .buttons .badge,
+.list-section .header-filter .state .buttons .badge{
+    color: var(--light-black-color);
+    font-weight: 400;
+    top: -2px;
+}
+.list-section .header-filter .stream .buttons .btn:hover,
+.list-section .header-filter .course .buttons .btn:hover,
+.list-section .header-filter .sort .buttons .btn:hover,
+.list-section .header-filter .state .buttons .btn:hover{
+    background: var(--theme-color);
+}
+.list-section .header-filter .stream .buttons .btn:hover>.badge,
+.list-section .header-filter .stream .buttons .btn:hover>.badge>.fa,
+.list-section .header-filter .course .buttons .btn:hover>.badge,
+.list-section .header-filter .course .buttons .btn:hover>.badge>.fa,
+.list-section .header-filter .sort .buttons .btn:hover>.badge,
+.list-section .header-filter .sort .buttons .btn:hover>.badge>.fa,
+.list-section .header-filter .state .buttons .btn:hover>.badge,
+.list-section .header-filter .state .buttons .btn:hover>.badge>.fa{
+    color: var(--white-color);
+}
+.list-section .header-filter .sort{
+    padding: 8px;
+    background: var(--white-color);
+    align-items: center;
+}
+.list-section .header-filter .sort .buttons .more{
+    font-size: 12px;
+    color: var(--theme-color);
+    padding-left: 10px;
+    font-weight: 600;
+    background: none;
+    border: none;
+}
+.list-section .header-filter .sort .buttons .dropdown-menu{
+    width: 25%;
+    height: 35ch;
+    overflow: auto;
+}
+.list-section .header-filter .sort .buttons .dropdown-menu a{
+    margin: 5px;
+}
+.list-section .header-filter .sort .sorting{
+    margin-left: auto;
+}
+.list-section .header-filter .sort .sorting span{
+    font-size: 13px;
+    padding-right: 15px;
+}
+.list-section .header-filter .sort .sorting a{
+    transition: 0.3s ease-in-out;
+    color: var(--black-color);
+}
+.list-section .header-filter .sort .sorting a:hover{
+    color: var(--theme-color);
+}
+.list-section .header-filter .sort .sorting a .fa{
+    font-size: xx-small ;
+}
+.list-section .header-filter .sort .sorting .view .fa{
+    font-size: 13px !important;
+}
+.list-section .header-filter .sort .sorting .active{
+    color: var(--theme-color);
+    font-size: 14px;
+    font-weight: 600;
 }
 /* Column-view Section */

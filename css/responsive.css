@@ -280,4 +280,40 @@
     .table-section .table-view .table-responsive{
         white-space: nowrap;
     }
+    .list-section .header-filter .stream,
+    .list-section .header-filter .course,
+    .list-section .header-filter .state{
+        white-space: nowrap;
+        overflow: auto;
+    }
+    .list-section .header-filter .stream, 
+    .list-section .header-filter .course,
+    .list-section .header-filter .state{
+        padding: 8px 10px 8px 20px !important;
+    }
+    .list-section .header-filter .stream .title h6,
+    .list-section .header-filter .course .title h6,
+    .list-section .header-filter .state .title h6{
+        font-size: 10px !important; 
+    }
+    .list-section .header-filter .stream .buttons,
+    .list-section .header-filter .course .buttons,
+    .list-section .header-filter .state .buttons{
+        margin-left: 5.5% !important;
+    }
+    .mobile-sorting-section{
+        background: var(--white-color);
+        padding: 4px;
+    }
+    .mobile-sorting-section .btn{
+        border: none;
+        width: 100%;
+        border-radius: 0;
+    }
+    .mobile-sorting-section .btn:first-child{
+        border-right: 1px solid var(--dark-bg);
+    }
+    .mobile-footer{
+        margin-bottom: 3em;
+    }
 }
