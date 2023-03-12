@@ -1476,4 +1476,107 @@ a{
     font-size: 14px;
     font-weight: 600;
 }
+.list-section .infromation-data{
+    background: var(--white-color);
+    padding: 10px;
+}
+.list-section .infromation-data .data .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: var(--light-black-color);
+}
+.list-section .infromation-data .data .main-image{
+    background-image: url(https://www.careerindia.com/img/600x40/2018/02/1-ladyshriramcollegeforwomen-1517989921.jpg);
+    height: 30ch;
+    width: 100%;
+    background-size: cover;
+}
+.list-section .infromation-data .details .college-name{
+    align-items: center;
+}
+.list-section .infromation-data .details .name a{
+    font-size: 13px;
+    font-weight: 500;
+}
+.list-section .infromation-data .details .name p{
+    font-size: 11px;
+}
+.list-section .infromation-data .details .fees-structure{
+    align-items: center;
+}
+.list-section .infromation-data .details .fees-structure a{
+    color: var(--theme-color);
+}
+.list-section .infromation-data .details .fees-structure p{
+    font-size: 8px;
+}
+.list-section .infromation-data .details .fees-structure .fees-1,
+.list-section .infromation-data .details .fees-structure .fees-2,
+.list-section .infromation-data .details .fees-structure .rating{
+    padding: 10px;
+}
+.list-section .infromation-data .main-buttons .btn{
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 0;
+}
+.list-section .infromation-data .main-buttons .btn .name{
+    margin-left: 10%;
+}
+.list-section .infromation-data .main-buttons .btn:first-child{
+    margin-top: 0;
+}
+.list-section .infromation-data .main-buttons .apply-btn{
+    background: var(--theme-color);
+    color: var(--white-color);
+}
+.list-section .infromation-data .main-buttons .download-btn,
+.list-section .infromation-data .main-buttons .compare-btn{
+    color: var(--theme-color);
+    background: var(--white-color);
+    border-color: var(--theme-color);
+}
+.list-section .infromation-data .main-buttons .apply-btn .btn-label{
+    background: var(--transparent-black);
+}
+.list-section .infromation-data .main-buttons .btn-label {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    padding: 10px 15px;
+    border-radius: 5px 0 0 5px;
+    border-right: solid 1px var(--theme-color);
+}
+.list-section .infromation-data .bottom-area .buttons .btn{
+    border: 1px solid gray;
+    font-size: 12px;
+    margin-top: 2em;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    padding: 5px 15px 5px 15px;
+}
+.list-section .infromation-data .bottom-area .buttons .btn:hover{
+    color: var(--theme-color);
+    border-color : var(--theme-color);
+}
+.list-section .infromation-data .bottom-area .rating{
+    font-size: 12px;
+}
+.list-section .infromation-data .bottom-area .rating .theme-color{
+    color: var(--theme-color);
+}
+.list-section .infromation-data .bottom-area .right-side{
+    margin-left: auto;
+}
+.list-section .infromation-data .bottom-area .accordion{
+    --bs-accordion-btn-icon-width : 0.5rem;
+    --bs-accordion-border-color :var(--white-color);
+}
+.list-section .infromation-data .bottom-area .accordion-button{
+    padding: 0;
+    background: var(--white-color);
+}
 /* Column-view Section */
