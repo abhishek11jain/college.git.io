@@ -64,7 +64,7 @@ a{
     padding-left: 0;
 }
 .topbar-section .text-left{
-    width: 88% !important;
+    width: 88% ;
 }
 .topbar-section .topbar-menus ul li{
     margin: 0 0.5em;
@@ -1215,9 +1215,112 @@ a{
 }
 /* Onload Popup */
 
+/* Desktop Searchbox */
+.overlay-searchbox .searchbar {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    display: none;
+    z-index: 9999;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    background: var(--light-black-color);
+}
+.overlay-searchbox .content {
+    background: var(--bg-gray);
+    width: 100%;
+    z-index: 999;
+    padding: 1em;
+}
+.overlay-searchbox .content h6{
+    font-size: 20px;
+    color: var(--theme-color);
+}
+.overlay-searchbox .content a{
+    font-size: 14px;
+    color: var(--black-color);
+    text-decoration: none;
+}
+.overlay-searchbox .content ul li{
+    list-style: disc !important;
+}
+.overlay-searchbox .content p{
+    color: darkgreen;
+    font-weight: 500;
+    font-size: 18px;
+}
+.overlay-searchbox .searchbar .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 999;
+    font-size: 32px;
+    cursor: pointer;
+    color: var(--black-color);
+}
+.overlay-searchbox .searchbar input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    width: 100%;
+    font-size: 23px;
+    outline: none;
+    background: var(--white-color);
+}
+.overlay-searchbox .searchbar input[type=text]::placeholder{
+    font-size: 23px;
+    font-weight: 500;
+}
+.overlay-searchbox .searchbar .search-data{
+    overflow-x: auto;
+    height: 100%;
+    position: relative;
+    background: var(--light-gray);
+    padding: 1em 1em 5em 1em;
+}
+.overlay-searchbox .searchbar .search-data .data{
+    align-items: center;
+    margin-bottom: 10px;
+}
+.overlay-searchbox .searchbar .search-data .data a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+.overlay-searchbox .searchbar .search-data .institute{
+    margin-left: auto;
+}
+.overlay-searchbox .searchbar .search-data .institute img{
+    border-radius: 50%;
+}
+.overlay-searchbox .searchbar .search-data .institute{
+    align-items: center;
+}
+.overlay-searchbox .searchbar .search-data .institute p{
+    padding-left: 5px;
+}
+.overlay-searchbox .searchbar .search-data .badge-buttons a{
+    padding-right: 13px;
+    padding-left: 13px;
+    font-size: 14px;
+    color: var(--black-color);
+    font-weight: 600;
+    text-decoration: none;
+    border-right: 1px solid var(--black-color);
+}
+.overlay-searchbox .searchbar .search-data .badge-buttons a:first-child{
+    padding-left: 0;
+    padding-right: 0;
+}
+.overlay-searchbox .searchbar .search-data .badge-buttons a:last-child{
+    border-right: none;
+}
+/* Desktop Searchbox */
+
 
 
 /*=============== university PAGE ===============*/
+
 /* Header */
 .p-relative{
     position: relative !important;
@@ -1368,10 +1471,13 @@ a{
 }
 .list-section .header-filter .stream,
 .list-section .header-filter .course,
-.list-section .header-filter .state{
+.list-section .header-filter .state,
+.list-section .header-filter .sort{
     padding: 8px 10px 8px 30px;
     align-items: center;
     background: var(--white-color);
+    white-space: nowrap;
+    overflow: auto;
 }
 .list-section .header-filter .stream .title h6,
 .list-section .header-filter .course .title h6,
@@ -1476,9 +1582,10 @@ a{
     font-size: 14px;
     font-weight: 600;
 }
-.list-section .infromation-data{
-    background: var(--white-color);
+.list-section .infromation-data .college-data {
+    margin-bottom: 0.6em;
     padding: 10px;
+    background: var(--white-color);
 }
 .list-section .infromation-data .data .overlay{
     height: 100%;
@@ -1491,6 +1598,15 @@ a{
     height: 30ch;
     width: 100%;
     background-size: cover;
+}
+.list-section .infromation-data .main-image .overlay-data {
+    z-index: 9999;
+    padding: 10px;
+    position: absolute;
+}
+.list-section .infromation-data .main-image .overlay-data a{
+    color: var(--white-color); 
+    padding-right: 10px;
 }
 .list-section .infromation-data .details .college-name{
     align-items: center;

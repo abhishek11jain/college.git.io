@@ -316,4 +316,98 @@
     .mobile-footer{
         margin-bottom: 3em;
     }
+    .list-section .infromation-data .details {
+        position: relative;
+    }
+    .list-section .infromation-data .details .college-name{
+        position: absolute;
+        bottom: 3.5em;
+        padding: 3px;
+        width: 100%;
+        background: var(--white-color) !important;
+    }
+    .list-section .infromation-data .details .college-name .image img{
+        width: 40px;
+    }
+    .list-section .infromation-data .details .college-name .name{
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+    .list-section .infromation-data .details .college-name .name a{
+        font-size: 16px !important;
+    }
+    .list-section .infromation-data .details .college-name .name p{
+        font-size: 8px;
+    }
+    .list-section .infromation-data .data .main-image{
+        height: 25ch !important;
+    }
+    .list-section .infromation-data .details .fees-structure{
+        justify-content: space-between;
+    }
+    .list-section .infromation-data .details .fees-structure h6{
+        font-size: 12px;
+    }
+    .list-section .infromation-data .details .fees-structure p{
+        font-size: 7px !important;
+    }
+    .list-section .infromation-data .bottom-area{
+        margin-bottom: 1em;
+    }
+    .list-section .infromation-data .bottom-area .buttons{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .list-section .infromation-data .bottom-area .buttons .btn{
+        font-size: 9px !important;
+    }
+    .list-section .infromation-data .main-buttons{
+        display: flex;
+    }
+    .list-section .infromation-data .main-buttons .btn {
+        font-size: 9px !important;
+        margin-left: 10px;
+    }
+    .list-section .infromation-data .main-buttons .btn:first-child{
+        margin-left: 0 !important;
+    }
+    .list-section .infromation-data .main-buttons .btn .name {
+        margin-left: 5% !important;
+    }
+    .list-section .infromation-data .main-buttons .btn-label {
+        width: 30px !important;
+        padding: 6px 6px !important;
+    }
+    .list-section .infromation-data .main-buttons .btn {
+        margin-top: 0 !important;
+    }
+    .list-section .infromation-data .bottom-area .buttons .btn{
+        margin-top: 0 !important;
+    }
+    .list-section .infromation-data .main-buttons{
+        white-space: nowrap;
+        overflow: auto;
+    }
+    
+}
+
+
+/* IPAD PRO PORTRAIT */
+@media only screen and (device-height : 1366px) and (device-width : 1024px) and (orientation: portrait) {
+    .topbar-section .topbar-menus ul li a{
+        font-size: 10px !important;
+    }
+    .topbar-section .text-left {
+        width: 80% !important;
+    }
+    .topbar-section .text-right{
+        margin-left: auto;
+    }
+    .navbar-section .menu-name, .p-relative .navbar-section .nav-link {
+        font-size: 11px;
+    }
+    .navbar-section .btn {
+        font-size: 12px !important;
+    }
 }
