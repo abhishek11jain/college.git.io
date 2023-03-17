@@ -1,0 +1,930 @@
+:root{
+    --font-theme : 'PT Sans', sans-serif;
+    --theme-color : #ec7c1c;
+    --black-color : #000000;
+    --light-black-color : #000000a1;
+    --white-color : #ffffff;
+    --light-gray : #f2f2f2;
+    --yellow-color : #f1b60f;
+    --base-section : #ec7d1c74;
+    --transparent-black : #0000000f;
+    --transparent-white : #ffffff34;
+    --focus-btn : #d5d5d5;
+    --gray-color : #aeaeae;
+    --bg-gray : #f5f8f9;
+    --theme-light : #fce9d2;
+    --dark-bg : #323c4f;
+    --sky : #4fb8dd ;
+}
+
+/* ALL MOBILE DEVICE */
+@media only screen and (max-width : 767px){
+    .university-section{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }    
+    .hide-mobile{
+        display: none !important;
+    }
+    .title h6{
+        font-size: 1em !important;
+    }
+    .slider-section .carousel-item{
+        height: 32ch !important;
+    }
+    .caption-section{
+        margin-top: -10em !important;
+    }
+    .caption-section .text{
+        font-size: 1.5ch !important;
+    }
+    .caption-section .searchbox {
+        height: 40px !important;
+        width: 100% !important;
+    }
+    .caption-section .searchbtn {
+        width: 40px !important;
+        padding: 8px !important;
+        height: 40px !important;
+    }
+    .courses-section #CoursesSection .data a {
+        font-size: 14px !important;
+    }
+    .courses-section #CoursesSection .data table td,
+    .courses-section #CoursesSection .data table h6 {
+        font-size: 10px !important;
+    }
+    .courses-section .carousel-item hr{
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+    .courses-section #CoursesSection .read-more a {
+        width: 95% !important;
+        margin-top: 1em !important;
+        font-size: 11px !important;
+    }
+    .courses-section .badge-buttons a{
+        font-size: 10px;
+    }
+    .courses-section .indicator-icon,
+    .university-section .indicator-icon,
+    .place-section .indicator-icon,
+    .exam-section .indicator-icon,
+    .study-section .indicator-icon{
+        margin-left: auto;
+    }
+
+    .courses-section .indicator-icon a,
+    .university-section .indicator-icon a,
+    .place-section .indicator-icon a,
+    .exam-section .indicator-icon a,
+    .study-section .indicator-icon a{
+        padding: 4px !important;
+    }
+    .top-link,
+    .mobile-goal-section{
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .top-link .badges{
+        margin-top: 1em;
+    }
+    .top-link .badges a{
+        margin: 6px 6px;
+    }
+    .focus-btn:active,.focus-btn:focus{
+        background: var(--focus-btn) !important;
+    }
+    .mobile-goal-section .accordion-item{
+        border: none;
+        border-bottom: 1px solid var(--light-gray);
+    }
+    .mobile-goal-section .accordion-item:last-child{
+        border-bottom: none;
+    }
+    .mobile-goal-section .image{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+    }
+    .mobile-goal-section .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .mobile-goal-section .text{
+        margin-left: 0.8em;
+        font-size: 12px;
+        color: var(--black-color);
+    }
+    .mobile-goal-section .accordion-button::after,
+    .mobile-goal-section .accordion-button::before{
+        background-size: 11px;
+        color: var(--black-color);
+    }
+    .mobile-goal-section .more-btn{
+        background: var(--theme-transparent-color) !important;
+        color: var(--theme-color) !important;
+        outline: none !important;
+        border: none;
+        font-weight: 500;
+    }
+    .collection-section .absolute-box{
+        padding: 0 0px 0 46px !important;
+    }
+
+    .cbse-section .badges a,
+    .top-course-section .badges a
+    {
+        font-size: 12px !important;
+    }
+    .university-section #UniversitySection .card,
+    .courses-section #CoursesSection .card,
+    .exam-section #ExamSection .card,
+    .study-section #StudySection .card{
+        margin: 0 !important;
+    }
+    .courses-section .badge-buttons{
+        overflow: auto !important;
+        white-space: nowrap !important;
+        width: 80% !important;
+    }
+    .university-section .title,
+    .exam-section .title,
+    .study-section .title{
+        width: 80% !important;
+    }
+    .study-section  #StudySection .sub-information .left-data .text p,
+    .study-section  #StudySection .sub-information .right-data .text p{
+        font-size: 9px !important;
+    }
+    .study-section  #StudySection .sub-information .left-data .text h6,
+    .study-section  #StudySection .sub-information .right-data .text h6{
+        font-size: 10px !important;
+    }
+    .study-section #StudySection .main-information .image{
+        height: 70px !important;
+        width: 70px !important;
+    }
+    .advertice-section .text{
+        display: block !important;
+    }
+    .advertice-section .text h4{
+        font-size: 18px;
+    }
+    .advertice-section .text a{
+        margin-left: 0 !important;
+        padding: 5px 15px 5px 15px !important;
+    }
+    .footer-section .bottom-footer .copyright{
+        justify-content: center !important;
+    }
+    .cbse-section .badges a, .top-course-section .badges a{
+        margin: 4px 2px  !important;
+    }
+    .cbse-section .badges a, .top-course-section .badges a{
+        font-size: 10px !important;
+    }
+    .mobile-header-section{
+        position: absolute;
+        width: 99%;
+        padding: 15px 0;
+        z-index: 2;
+    }
+    .mobile-header-section .toggle-button{
+        justify-content: flex-start;
+        margin-right: 20px;
+    }
+    .mobile-header-section .search-button{
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+    .mobile-header-section .toggle-button a,
+    .mobile-header-section .search-button a{
+        color: var(--white-color);
+        font-size: 20px;
+    }
+    .mobile-caption-section{
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        padding: 15px 0;
+        top: 97px ;
+        bottom: 0;
+    }
+    .mobile-caption-section .search-box .btn{
+        margin-left: 1%;
+        font-size: 11px;
+        text-align: left;
+        border: 1px solid var(--black-color) !important;
+        background: var(--black-color) !important;
+    }
+    .mobile-caption-section .form-section h6{
+        color: var(--white-color);
+        margin-top: 10px;
+    }
+    .mobile-caption-section .search-bar{
+        position: relative;
+        border-radius: 4px;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDUxIDQ1MSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDUxIDQ1MTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZmlsbD0iI2FkYjViZCIgZD0iTTQ0Ny4wNSw0MjhsLTEwOS42LTEwOS42YzI5LjQtMzMuOCw0Ny4yLTc3LjksNDcuMi0xMjYuMUMzODQuNjUsODYuMiwyOTguMzUsMCwxOTIuMzUsMEM4Ni4yNSwwLDAuMDUsODYuMywwLjA1LDE5Mi4zDQoJCXM4Ni4zLDE5Mi4zLDE5Mi4zLDE5Mi4zYzQ4LjIsMCw5Mi4zLTE3LjgsMTI2LjEtNDcuMkw0MjguMDUsNDQ3YzIuNiwyLjYsNi4xLDQsOS41LDRzNi45LTEuMyw5LjUtNA0KCQlDNDUyLjI1LDQ0MS44LDQ1Mi4yNSw0MzMuMiw0NDcuMDUsNDI4eiBNMjYuOTUsMTkyLjNjMC05MS4yLDc0LjItMTY1LjMsMTY1LjMtMTY1LjNjOTEuMiwwLDE2NS4zLDc0LjIsMTY1LjMsMTY1LjMNCgkJcy03NC4xLDE2NS40LTE2NS4zLDE2NS40QzEwMS4xNSwzNTcuNywyNi45NSwyODMuNSwyNi45NSwxOTIuM3oiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K) 15px center / 15px no-repeat rgb(255, 255, 255);
+        border: none;
+        outline: none;
+        box-shadow: rgb(0 0 0 / 29%) 0px 0px 20px;
+        padding: 0px 6px 0px 45px;
+        font-size: 12px;
+        color: rgb(173, 181, 189);
+        text-align: left;
+        display: block;
+        height: 40px;
+        width: 100%;
+        margin: 12px 0px;
+    }
+    .mobile-caption-section .counslting-btn{
+        align-items: center;
+        margin-top: 10px;
+    }
+    .mobile-caption-section .text a{
+        color: var(--white-color);
+        font-size: 13px;
+    }
+    .mobile-caption-section .button-section{
+        margin-left: auto;
+    }
+    .mobile-caption-section .button-section a{
+        font-size: 10px;
+        border: none;
+        padding: 2px 10px 2px 10px;
+        background: var(--theme-color);
+        border-radius: 50px ;
+    }
+    .place-section .title{
+        width: 80% !important;
+    }
+    .footer-section .mid-footer span{
+        padding-left: 13px;
+    }
+    .footer-section .mid-footer .links{
+        text-align: center !important;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .footer-section .buttons{
+        display: block !important;
+        text-align: center !important;
+    }
+    .footer-section .bottom-footer .text p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .onload-popup .content h6{
+        font-size: 9px !important;
+        margin-bottom: 0 !important;
+    }
+    .onload-popup .content .text{
+        text-align: center !important;
+    }
+    .onload-popup .content .text-button{
+       display: block !important;
+    }
+    .onload-popup .content .text-button a{
+        font-size: 12px !important;
+    }
+    .onload-popup .content .text-button .btn-submit .btn{
+        width: 100% !important;
+        margin-top: 10px;
+        font-size: 12px !important;
+        text-transform: capitalize !important;
+        font-weight: 400 !important;
+        letter-spacing: normal !important;        
+    }
+    .onload-popup .mt-4{
+        margin-top: 0 !important;
+    }
+    .onload-popup .register .text h6{
+        font-size: 15px !important;
+        text-align: left !important;
+    }
+    .onload-popup #login .p-5{
+        padding: 1.8rem !important;
+    }
+
+
+    /* ============================= */
+
+    .mobile-header{
+        background: var(--dark-bg);
+    }
+    .bread-crumb .heading h5{
+        font-size: 15px !important;
+        color: var(--black-color) !important;
+    }
+    .bread-crumb .breadcrumb-item{
+        font-size: 10px !important;
+    }
+    .notification-section p{
+        font-size: 12px !important;
+    }
+    .table-section .filter{
+        padding: 0.5em !important;
+    }
+    .table-section .filter .btn{
+        font-size: 10px;
+    }
+    .table-section .table-view .table-responsive{
+        white-space: nowrap;
+    }
+    .list-section .header-filter .stream,
+    .list-section .header-filter .course,
+    .list-section .header-filter .state{
+        white-space: nowrap;
+        overflow: auto;
+    }
+    .list-section .header-filter .stream, 
+    .list-section .header-filter .course,
+    .list-section .header-filter .state{
+        padding: 8px 10px 8px 20px !important;
+    }
+    .list-section .header-filter .stream .title h6,
+    .list-section .header-filter .course .title h6,
+    .list-section .header-filter .state .title h6{
+        font-size: 10px !important; 
+    }
+    .list-section .header-filter .stream .buttons,
+    .list-section .header-filter .course .buttons,
+    .list-section .header-filter .state .buttons{
+        margin-left: 5.5% !important;
+    }
+    .mobile-sorting-section{
+        background: var(--white-color);
+        padding: 4px;
+    }
+    .mobile-sorting-section .btn{
+        border: none;
+        width: 100%;
+        border-radius: 0;
+    }
+    .mobile-sorting-section .btn:first-child{
+        border-right: 1px solid var(--dark-bg);
+    }
+    .mobile-footer{
+        margin-bottom: 3em;
+    }
+    .list-section .infromation-data .details {
+        position: relative;
+    }
+    .list-section .infromation-data .details .college-name{
+        position: absolute;
+        bottom: 3.5em;
+        padding: 3px;
+        width: 100%;
+        background: var(--white-color) !important;
+    }
+    .list-section .infromation-data .details .college-name .image img{
+        width: 40px;
+    }
+    .list-section .infromation-data .details .college-name .name{
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+    .list-section .infromation-data .details .college-name .name a{
+        font-size: 16px !important;
+    }
+    .list-section .infromation-data .details .college-name .name p{
+        font-size: 8px;
+    }
+    .list-section .infromation-data .data .main-image{
+        height: 25ch !important;
+    }
+    .list-section .infromation-data .details .fees-structure{
+        justify-content: space-between;
+    }
+    .list-section .infromation-data .details .fees-structure h6{
+        font-size: 12px;
+    }
+    .list-section .infromation-data .details .fees-structure p{
+        font-size: 7px !important;
+    }
+    .list-section .infromation-data .bottom-area{
+        margin-bottom: 1em;
+    }
+    .list-section .infromation-data .bottom-area .buttons{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .list-section .infromation-data .bottom-area .buttons .btn{
+        font-size: 9px !important;
+    }
+    .list-section .infromation-data .main-buttons{
+        display: flex;
+    }
+    .list-section .infromation-data .main-buttons .btn {
+        font-size: 9px !important;
+        margin-left: 10px;
+    }
+    .list-section .infromation-data .main-buttons .btn:first-child{
+        margin-left: 0 !important;
+    }
+    .list-section .infromation-data .main-buttons .btn .name {
+        margin-left: 5% !important;
+    }
+    .list-section .infromation-data .main-buttons .btn-label {
+        width: 30px !important;
+        padding: 6px 6px !important;
+    }
+    .list-section .infromation-data .main-buttons .btn {
+        margin-top: 0 !important;
+    }
+    .list-section .infromation-data .bottom-area .buttons .btn{
+        margin-top: 0 !important;
+    }
+    .list-section .infromation-data .main-buttons{
+        white-space: nowrap;
+        overflow: auto;
+    }
+    .mobile-searchbar-section{
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        height: 100%;
+        background: var(--white-color);
+        width: 100%;
+    }
+    .mobile-searchbar-section .box{
+        align-items: center;
+        padding: 10px;
+        background: var(--white-color);
+    }
+    .mobile-goal-city-section{
+        display: none;
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        height: 100%;
+        background: var(--white-color);
+    }
+    .mobile-goal-city-section .box{
+        align-items: center;
+        padding: 10px;
+    }
+    .mobile-goal-city-section .header-section{
+        background: rgb(241, 241, 241);
+    }
+    .mobile-searchbar-section .back-btn,
+    .mobile-goal-city-section .back-btn{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .mobile-searchbar-section .back-btn a,
+    .mobile-goal-city-section .back-btn a{
+        color: var(--black-color);
+        font-size: 20px;
+    }
+    .mobile-goal-city-section .text p{
+        font-size: 18px ;
+        margin-left: 10px;
+        font-weight: 400;
+    }
+    .mobile-searchbar-section .form-group,
+    .mobile-goal-city-section .text{
+        width: 100%;
+    }
+    .mobile-searchbar-section .form-control{
+        width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+    .mobile-searchbar-section .search-data{
+        height: 65ch;
+        overflow: auto;
+        background: var(--white-color);
+    }
+    .mobile-searchbar-section .result,
+    .mobile-searchbar-section .not-found,
+    .mobile-searchbar-section .search-result{
+        align-items: center;
+        padding: 10px;
+    }
+    .mobile-searchbar-section .not-found b,
+    .mobile-searchbar-section .search-result b{
+        font-size: 15px;
+    }
+    .mobile-searchbar-section .result a{
+        color: var(--black-color);
+        text-decoration: none;
+    }
+    .mobile-searchbar-section .result p{
+        margin-left: auto;
+    }
+    .mobile-goal-city-section .goal-city{
+        padding: 0em 1em 0 1em;
+    }
+    .mobile-goal-city-section .nav-tabs .nav-item.show .nav-link, 
+    .mobile-goal-city-section .nav-tabs .nav-link.active{
+        color: var(--theme-color);
+        border-bottom: 1px solid var(--theme-color) !important;
+        background: none;
+    }
+    .mobile-goal-city-section .nav-tabs .nav-item .show .nav-link, 
+    .mobile-goal-city-section .nav-tabs .nav-link{
+        outline: none !important;
+        box-shadow: none !important;
+        border: none;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        color: var(--black-color);
+    }
+    .mobile-goal-city-section .nav-tabs{
+        width: 100%;
+    }
+    .mobile-goal-city-section .nav-tabs .nav-item{
+        width: 50%;
+    }
+    .mobile-goal-city-section .tab-pane {
+        padding: 10px;
+    }
+    .mobile-goal-city-section .tab-pane .form-control{
+        border-radius: 3px;
+        padding: 10px;
+        padding-left: 3em;
+        box-shadow: none;
+    }
+    .mobile-goal-city-section .tab-pane .form-control:focus{
+        border-color: var(--theme-color);
+    }
+    .mobile-goal-city-section .tab-pane .form-group{
+        position: relative;
+    }
+    .mobile-goal-city-section .tab-pane .form-group label{
+        position: absolute;
+        top: 11px;
+        left: 17px;
+    }
+
+/* ========================== Exam Page ========================= */
+    .exam-category  {
+        padding: 0 !important;
+    }
+    .exam-category .category .box,
+    .exam-category .box, .exam-category .news{
+        border-radius: 0 !important;
+    }    
+    .exam-category .row>*{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .exam-category .data .main-data .title h6{
+        font-size: 13px !important;
+    }
+    .exam-category .data .main-data .title p{
+        font-size: 10px !important;
+    }
+}
+
+
+/* ANY DESKTOP DEVICE */
+@media only screen and (min-width : 767px){
+    .hide-desktop{
+        display: none !important;
+    }
+}
+
+/* IPAD PRO PORTRAIT */
+@media only screen and (device-height : 1366px) and (device-width : 1024px) and (orientation: portrait) {
+    .topbar-section .topbar-menus ul li a{
+        font-size: 10px !important;
+    }
+    .topbar-section .text-left {
+        width: 80% !important;
+    }
+    .topbar-section .text-right{
+        margin-left: auto;
+    }
+    .navbar-section .menu-name, .p-relative .navbar-section .nav-link {
+        font-size: 11px;
+    }
+    .navbar-section .btn {
+        font-size: 12px !important;
+    }
+    .collection-section .absolute-box {
+        padding: 0 0px 0 42px !important;
+    }
+    .university-section #UniversitySection .text h6 {
+        white-space: nowrap; 
+        width: 95%; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+    .university-section #UniversitySection .text h6 a {
+        font-size: 11px !important;
+    }
+    .university-section #UniversitySection .text a {
+        font-size: 9px !important;
+    }
+    .university-section #UniversitySection .image {
+        width: 52px !important;
+        height: 52px !important;
+    }
+    .university-section .content .row{
+        align-items: center;
+    }
+    .study-section #StudySection .sub-information .right-data .text h6,
+    .study-section #StudySection .sub-information .left-data .text h6{
+        font-size: 10px !important;
+    }
+    .study-section #StudySection .sub-information .right-data .text p,
+    .study-section #StudySection .sub-information .left-data .text p{
+        font-size: 9px !important;
+    }
+    .footer-section .title h6 {
+        font-size: 15px !important;
+    }
+    .footer-section .links p {
+        font-size: 9px !important;
+    }
+    .footer-section .mid-footer span {
+        font-size: 11px !important;
+    }
+    .footer-section .buttons {
+        align-items: center;
+    }
+    .footer-section .buttons span {
+        margin-left: 4%;
+    }
+    .footer-section .buttons span h6{
+        font-size: 11px !important;
+    }    
+    .footer-section .bottom-footer .text p {
+        padding-left: 32px !important;
+        font-size: 10px !important;
+    }
+    .onload-popup .grid-system{
+        display: none !important;
+    }
+    .list-section .header-filter .stream .title h6, 
+    .list-section .header-filter .course .title h6, 
+    .list-section .header-filter .sort .title h6, 
+    .list-section .header-filter .state .title h6 {
+        font-size: 11px !important;
+    }
+    .list-section .header-filter .stream .buttons .btn, 
+    .list-section .header-filter .course .buttons .btn, 
+    .list-section .header-filter .sort .buttons .btn, 
+    .list-section .header-filter .state .buttons .btn {
+        font-size: 10px !important;
+    }
+    .list-section .header-filter .sort .sorting span {
+        font-size: 10px !important;
+    }
+    .list-section .infromation-data .data .main-image {
+        height: 18ch !important;
+    }   
+    .list-section .infromation-data .details .name a {
+        font-size: 10px !important;
+    } 
+    .list-section .infromation-data .main-buttons .btn {
+        font-size: 9px;
+    }
+    .list-section .infromation-data .main-buttons .btn-label {
+        width: 36px !important;
+        padding: 8px 11px !important;
+    }
+    .list-section .infromation-data .bottom-area .buttons .btn {
+        font-size: 10px !important;
+        margin-top: 0 !important;
+        padding: 2px 15px 2px 15px !important;
+    }
+
+    /* ========================= */
+
+    .banner-text-section{
+        height: 19ch !important;
+    }
+    .banner-text-section .search {
+        padding: 30px !important;
+    }
+    .banner-text-section .search h6{
+        font-size: 20px !important
+    }
+    .banner-text-section .search .form-control{
+        padding: 10px !important;
+        padding-left: 4em !important;
+    }
+    .banner-text-section .search .fa {
+        font-size: 18px !important;
+    }
+    .banner-text-section .search .links span {
+        font-size: 10px !important;
+        padding: 4px !important;
+    }
+    .exam-category {
+        padding: 1em 0  !important;
+    }
+    .exam-category .box .title h6, 
+    .exam-category .news .title h6 {
+        font-size: 13px !important;
+    }
+    .exam-category .box .title p{
+        font-size: 10px !important;
+    }
+    .exam-category .news .news-detail h6 {
+        width: 140px !important;
+    }
+
+}
+
+/* IPAD LANDSCAPE */
+@media only screen and (device-width : 1024px) and (device-height : 768px) and (orientation: landscape) {
+    .topbar-section .topbar-menus ul li a{
+        font-size: 10px !important;
+    }
+    .topbar-section .text-left {
+        width: 80% !important;
+    }
+    .topbar-section .text-right{
+        margin-left: auto;
+    }
+    .navbar-section .menu-name, .p-relative .navbar-section .nav-link {
+        font-size: 11px;
+    }
+    .navbar-section .btn {
+        font-size: 12px !important;
+    }
+    .slider-section .carousel-item {
+        height: 44ch !important;
+    }
+    .caption-section {
+        padding: 4em !important;
+        margin-top: -19em !important;
+    }
+    .caption-section .text {
+        font-size: 4ch;
+        width: 85% !important;
+    }
+    .mobile-searchbar-section,
+    .mobile-goal-city-section{
+        display: none !important;
+    }
+    .collection-section .absolute-box {
+        padding: 0 0px 0 41px !important;
+    }
+    .footer-section .title h6 {
+        font-size: 15px !important;
+    }
+    .footer-section .links p {
+        font-size: 8px !important;
+    }
+    .footer-section .mid-footer span {
+        font-size: 10px !important;
+    }
+    .footer-section .bottom-footer .text p {
+        padding-left: 32px !important;
+        font-size: 10px !important;
+    }
+    .footer-section .buttons {
+        align-items: center;
+    }
+    .footer-section .buttons span {
+        margin-left: 4%;
+    }
+    .footer-section .buttons span h6{
+        font-size: 11px !important;
+    }
+
+/* =========================================== */
+
+    .banner-text-section{
+        height: 19ch !important;
+    }
+    .banner-text-section .search {
+        padding: 30px !important;
+    }
+    .banner-text-section .search h6{
+        font-size: 20px !important
+    }
+    .banner-text-section .search .form-control{
+        padding: 10px !important;
+        padding-left: 4em !important;
+    }
+    .banner-text-section .search .fa {
+        font-size: 18px !important;
+    }
+    .banner-text-section .search .links span {
+        font-size: 10px !important;
+        padding: 4px !important;
+    }
+    .exam-category {
+        padding: 1em 0  !important;
+    }
+    .exam-category .box .title h6, 
+    .exam-category .news .title h6 {
+        font-size: 13px !important;
+    }
+    .exam-category .box .title p{
+        font-size: 10px !important;
+    }
+    .exam-category .news .news-detail h6 {
+        width: 140px !important;
+    }
+}
+
+/* IPAD PORTRAIT */
+@media only screen and (device-width : 768px) and (device-height : 1024px) and (orientation: portrait) {
+    .topbar-section .topbar-menus ul li{
+        margin: 0 !important;
+    }
+    .topbar-section .topbar-menus ul li a{
+        font-size: 7px !important;
+        padding-left: 15px !important;
+    }
+    .topbar-section .text-left {
+        width: 80% !important;
+    }
+    .topbar-section .text-right{
+        margin-left: auto;
+    }
+    .navbar-section .menu-name, .p-relative .navbar-section .nav-link {
+        font-size: 11px;
+    }
+    .navbar-section .btn {
+        font-size: 12px !important;
+    }
+    .slider-section .carousel-item {
+        height: 44ch !important;
+    }
+    .caption-section {
+        padding: 4em !important;
+        margin-top: -19em !important;
+    }
+    .caption-section .text {
+        font-size: 4ch;
+        width: 85% !important;
+    }
+    .footer-section .title h6 {
+        font-size: 12px !important;
+    }
+    .footer-section .links p {
+        font-size: 6px !important;
+    }
+    .footer-section .mid-footer span {
+        font-size: 8px !important;
+    }
+    .footer-section .buttons {
+        align-items: center;
+    }
+    .footer-section .buttons span {
+        margin-left: 4%;
+    }
+    .footer-section .buttons span h6{
+        font-size: 5px !important;
+    }    
+    .footer-section .bottom-footer .text p {
+        padding-left: 18px !important;
+        font-size: 7px !important;
+    }
+    .onload-popup .grid-system{
+        display: none !important;
+    }
+
+    /* ================================     */
+    .banner-text-section{
+        height: 15ch !important;
+    }
+    .banner-text-section .search {
+        padding: 20px !important;
+    }
+    .banner-text-section .search h6{
+        font-size: 15px !important
+    }
+    .banner-text-section .search .form-control::placeholder{
+        font-size: 15px !important;
+    }
+    .banner-text-section .search .form-control{
+        padding: 5px !important;
+        font-size: 15px !important;
+        padding-left: 4em !important;
+    }
+    .banner-text-section .search .fa {
+        font-size: 13px !important;
+        left: 2em !important;
+    }
+    .banner-text-section .search .links span {
+        font-size: 8px !important;
+        padding: 4px !important;
+    }
+    .exam-category {
+        padding: 1em 0  !important;
+    }
+    .exam-category .box .title h6, 
+    .exam-category .news .title h6 {
+        font-size: 13px !important;
+    }
+    .exam-category .box .title p{
+        font-size: 10px !important;
+    }
+    .exam-category .news .news-detail h6 {
+        width: 140px !important;
+    }
+}
