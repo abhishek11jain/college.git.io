@@ -203,6 +203,27 @@ gtag('js', new Date());
 gtag('config', 'G-LLWL5N9CSM');
 
 
+// -----------------------------
+
+let article = document.querySelectorAll('#ArticelSection .carousel .carousel-item');
+article.forEach((el) => {
+  const minPerSlide = 4
+  let next = el.nextElementSibling
+  for (var i=1; i<minPerSlide; i++) {
+    if (!next) {
+      next = article[0]
+    }
+    let cloneChild = next.cloneNode(true)
+    el.appendChild(cloneChild.children[0])
+    next = next.nextElementSibling
+  }
+})
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-LLWL5N9CSM');
+
+
 
 
 // Less And More

@@ -1825,7 +1825,7 @@ a{
 .exam-category .data{
     margin-top: 1em;
     border: 1px solid lightgray;
-    padding: 1em 0 1em 0;
+    padding: 1em 6px 1em 6px;
     border-radius: 10px;
 }
 .exam-category .data .main-data{
@@ -1861,4 +1861,121 @@ a{
 }
 .exam-category .data  .text p{
     font-size: 12px;
+}
+.exam-category .data  .bottom-text{
+    padding: 20px 10px 5px 10px;
+    align-items: center;
+    border-bottom: 1px solid var(--light-gray);
+    justify-content: space-between;
+}
+.exam-category .data  .bottom-text h6,
+.exam-category .data  .button-text h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.exam-category .data  .button-text{
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    border-bottom: 1px solid var(--light-gray);
+    justify-content: space-between;
+}
+.exam-category .data  .button-text .btn{
+    box-shadow: none;
+    border: 1px solid var(--theme-color);
+    color: var(--theme-color);
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 4px 15px 4px 15px;
+}
+.exam-category .box .more a{
+    color: var(--theme-color);
+}
+.exam-category .articel{
+    margin-top: 10px;
+}
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item.active,
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item-next,
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item-end.active,
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item-start.active, 
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item-end,
+.exam-category .articel  #articelCarousel .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item.active,
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item-next,
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item-end.active,
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item-start.active, 
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item-end,
+.exam-category .articel  #newarticelCarousel .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+.exam-category .articel .indicator-icon{
+    margin-left: auto;
+}
+.exam-category .articel .indicator-icon a{
+    padding: 4px 10px;
+    background: var(--theme-color);
+    color: var(--white-color);
+}
+.exam-category .articel .indicate{
+    align-items: center;
+    margin-bottom: 10px;
+}  
+.exam-category .articel .content-box{
+    border: 1px solid var(--light-gray);
+    border-radius: 5px 5px 0 0;
+    margin: 0 3px;
+}
+.exam-category .articel .content-box .image{
+    height: 20ch;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.exam-category .articel .content-box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+} 
+.exam-category .articel .card{
+    border: none !important;
+} 
+.exam-category .articel .name{
+    padding: 10px;
+}
+.exam-category .articel .name a{
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+    color: var(--black-color);
+    overflow: hidden;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal; 
+}
+.exam-category .articel .name a:hover{
+    color: var(--theme-color);
+}
+.exam-category .articel .more{
+    padding: 10px;
 }

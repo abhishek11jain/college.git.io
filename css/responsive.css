@@ -581,6 +581,14 @@
     .exam-category .data .main-data .title p{
         font-size: 10px !important;
     }
+    .exam-category .mb-width{
+        width: 70% !important;
+    }
+    .exam-category .slider-title .bade-buttons{
+        overflow: auto !important;
+        white-space: nowrap !important;
+        width: 100% !important;
+    }
 }
 
 
@@ -732,6 +740,17 @@
     .exam-category .news .news-detail h6 {
         width: 140px !important;
     }
+    .exam-category .articel .content-box .image{
+        height: 15ch !important;
+    }
+    .exam-category .mb-width{
+        width: 85% !important;
+    }
+    .exam-category .slider-title .bade-buttons{
+        overflow: auto !important;
+        white-space: nowrap !important;
+        width: 100% !important;
+    }   
 
 }
 
@@ -828,6 +847,17 @@
     .exam-category .news .news-detail h6 {
         width: 140px !important;
     }
+    .exam-category .articel .content-box .image{
+        height: 15ch !important;
+    }
+    .exam-category .mb-width{
+        width: 85% !important;
+    }
+    .exam-category .slider-title .bade-buttons{
+        overflow: auto !important;
+        white-space: nowrap !important;
+        width: 100% !important;
+    }    
 }
 
 /* IPAD PORTRAIT */
@@ -917,14 +947,48 @@
     .exam-category {
         padding: 1em 0  !important;
     }
+    .exam-category .bade-buttons .btn {
+        font-size: xx-small !important;
+    }
     .exam-category .box .title h6, 
     .exam-category .news .title h6 {
-        font-size: 13px !important;
+        font-size: 8px !important;
     }
     .exam-category .box .title p{
-        font-size: 10px !important;
+        font-size: 6px !important;
+    }
+    .exam-category .data .main-data .status span{
+        font-size: 8px !important;
     }
     .exam-category .news .news-detail h6 {
         width: 140px !important;
     }
+    .exam-category .data .main-data .image {
+        height: 2em !important;
+        width: 2em !important;
+    }
+    .exam-category .data .text h6,
+    .exam-category .data .text p{
+        font-size: 6px !important;
+    }
+    .exam-category .data .bottom-text h6, 
+    .exam-category .data .button-text h6{
+        font-size: 10px !important;
+    }
+    .exam-category .data .button-text .btn{
+        padding: 2px 8px 2px 8px !important;
+        font-size: 10px !important;
+    }
+    .exam-category .articel .content-box .image{
+        height: 13ch !important;
+    }
+    .exam-category .mb-width{
+        width: 70% !important;
+    }
+    .exam-category .slider-title .bade-buttons{
+        overflow: auto !important;
+        white-space: nowrap !important;
+        width: 100% !important;
+    }
+
 }
