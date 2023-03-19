@@ -209,7 +209,7 @@
         z-index: 2;
         width: 100%;
         padding: 15px 0;
-        top: 97px ;
+        top: 77px ;
         bottom: 0;
     }
     .mobile-caption-section .search-box .btn{
@@ -812,6 +812,39 @@
         font-size: 11px !important;
     }
 
+    .list-section .header-filter .stream .title h6, 
+    .list-section .header-filter .course .title h6, 
+    .list-section .header-filter .sort .title h6, 
+    .list-section .header-filter .state .title h6 {
+        font-size: 11px !important;
+    }
+    .list-section .header-filter .stream .buttons .btn, 
+    .list-section .header-filter .course .buttons .btn, 
+    .list-section .header-filter .sort .buttons .btn, 
+    .list-section .header-filter .state .buttons .btn {
+        font-size: 10px !important;
+    }
+    .list-section .header-filter .sort .sorting span {
+        font-size: 10px !important;
+    }
+    .list-section .infromation-data .data .main-image {
+        height: 18ch !important;
+    }   
+    .list-section .infromation-data .details .name a {
+        font-size: 10px !important;
+    } 
+    .list-section .infromation-data .main-buttons .btn {
+        font-size: 9px;
+    }
+    .list-section .infromation-data .main-buttons .btn-label {
+        width: 36px !important;
+        padding: 8px 11px !important;
+    }
+    .list-section .infromation-data .bottom-area .buttons .btn {
+        font-size: 10px !important;
+        margin-top: 0 !important;
+        padding: 2px 15px 2px 15px !important;
+    }
 /* =========================================== */
 
     .banner-text-section{
@@ -917,6 +950,57 @@
     .onload-popup .grid-system{
         display: none !important;
     }
+    .list-section .header-filter .stream .title h6, 
+    .list-section .header-filter .course .title h6, 
+    .list-section .header-filter .sort .title h6, 
+    .list-section .header-filter .state .title h6 {
+        font-size: 11px !important;
+    }
+    .list-section .header-filter .stream .buttons .btn, 
+    .list-section .header-filter .course .buttons .btn, 
+    .list-section .header-filter .sort .buttons .btn, 
+    .list-section .header-filter .state .buttons .btn {
+        font-size: 10px !important;
+    }
+    .list-section .header-filter .sort .sorting span {
+        font-size: 10px !important;
+    }
+    .list-section .infromation-data .data .main-image {
+        height: 18ch !important;
+    }   
+    .list-section .infromation-data .details .fees-structure h6{
+        font-size: 8px !important;
+    }
+    .list-section .infromation-data .details .fees-structure p{
+        font-size: 5px !important;
+    }
+    .list-section .infromation-data .details .name{
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+        width: 100px !important;
+        overflow: hidden !important;
+    }
+    .list-section .infromation-data .college-name img{
+        width: 40px !important;
+    }
+    .list-section .infromation-data .details .name a {
+        font-size: 6px !important;
+    } 
+    .list-section .infromation-data .details .name p{
+        font-size: 6px !important;
+    }
+    .list-section .infromation-data .main-buttons .btn {
+        font-size: 9px;
+    }
+    .list-section .infromation-data .main-buttons .btn-label {
+        width: 25px !important;
+        padding: 3px 10px !important;
+    }
+    .list-section .infromation-data .bottom-area .buttons .btn {
+        font-size: 5px !important;
+        margin-top: 0 !important;
+        padding: 2px 15px 2px 15px !important;
+    }    
 
     /* ================================     */
     .banner-text-section{
