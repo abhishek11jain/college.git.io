@@ -589,6 +589,38 @@
         white-space: nowrap !important;
         width: 100% !important;
     }
+    .exam-category .accordion-button{
+        font-size: 12px !important;
+    }
+    .exam-category .accordion-header p{
+        font-size: 11px !important;
+    }
+    .exam-category .accordion-body p{
+        font-size: 13px !important;
+    }
+    .exam-category .box .title h4{
+        font-size: 15px !important;
+    }
+    .exam-category .box .user {
+        display: block !important;
+    }
+    .exam-category .box .user .text,
+    .exam-category .box .user .share,
+    .exam-category .box .user .alert-btn{
+        margin-top: 10px;
+    } 
+    .exam-category .box .para p,
+    .exam-category .box .para ul li,
+    .exam-category .box .para h6,
+    .exam-category .box .para table td,
+    .exam-category .box .para table tr,
+    .exam-category .box .para table th{
+        font-size: 13px !important;
+    }
+    .exam-category .box .para .table-responsive{
+        overflow: auto;
+        white-space: nowrap;
+    }
 }
 
 
@@ -750,7 +782,19 @@
         overflow: auto !important;
         white-space: nowrap !important;
         width: 100% !important;
-    }   
+    } 
+    .exam-category .box .para p,
+    .exam-category .box .para ul li,
+    .exam-category .box .para h6,
+    .exam-category .box .para table td,
+    .exam-category .box .para table tr,
+    .exam-category .box .para table th{
+        font-size: 13px !important;
+    }
+    .exam-category .box .para .table-responsive{
+        overflow: auto;
+        white-space: nowrap;
+    }      
 
 }
 
@@ -890,6 +934,18 @@
         overflow: auto !important;
         white-space: nowrap !important;
         width: 100% !important;
+    }    
+    .exam-category .box .para p,
+    .exam-category .box .para ul li,
+    .exam-category .box .para h6,
+    .exam-category .box .para table td,
+    .exam-category .box .para table tr,
+    .exam-category .box .para table th{
+        font-size: 13px !important;
+    }
+    .exam-category .box .para .table-responsive{
+        overflow: auto;
+        white-space: nowrap;
     }    
 }
 
@@ -1074,5 +1130,17 @@
         white-space: nowrap !important;
         width: 100% !important;
     }
+    .exam-category .box .para p,
+    .exam-category .box .para ul li,
+    .exam-category .box .para h6,
+    .exam-category .box .para table td,
+    .exam-category .box .para table tr,
+    .exam-category .box .para table th{
+        font-size: 13px !important;
+    }
+    .exam-category .box .para .table-responsive{
+        overflow: auto;
+        white-space: nowrap;
+    }    
 
 }
