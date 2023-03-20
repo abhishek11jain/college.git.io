@@ -2172,14 +2172,6 @@ a{
 .exam-category .news-data{
     align-items: center;
 }
-.exam-category .news-data .calender{
-    height: 80px;
-    width: 100px;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid var(--theme-color);
-}
-
 
 /* =============== Exam (Next Page) ================== */
 .exam-category .box .user {
