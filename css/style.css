@@ -2122,14 +2122,18 @@ a{
     overflow: auto;
     white-space: nowrap;
 }
-.exam-category .box .scroll::-webkit-scrollbar{
+.exam-category .box .scroll::-webkit-scrollbar,
+.exam-category .tab-section .v-height::-webkit-scrollbar{
     height: 5px;
+    width: 4px;
 }
-.exam-category .box .scroll::-webkit-scrollbar-thumb {
+.exam-category .box .scroll::-webkit-scrollbar-thumb,
+.exam-category .tab-section .v-height::-webkit-scrollbar-thumb {
     background-color: var(--gray-color);
 }
 .exam-category .box .para p{
     text-align: justify;
+    font-size: 13px;
 }
 .exam-category .box .para span{
     font-weight: 600;
@@ -2137,6 +2141,7 @@ a{
 .exam-category .box .para a{
     color: var(--theme-color);
     font-weight: 400;
+    font-size: 13px;
     transition: 0.3s ease-in-out;
 }
 .exam-category .box .para a:hover{
@@ -2159,20 +2164,79 @@ a{
 }
 .exam-category .box .para .table-content table thead{
     background: var(--light-gray);
+    font-size: 13px;
 }
 .exam-category .box .para .table-content table thead th{
     font-weight: 500;
     border: 1px solid var(--bg-gray);
 }
 .exam-category .box .para .table-content table td{
-    font-size: 15px;
+    font-size: 13px;
     padding: 15px;
     border: 1px solid var(--bg-gray);
 }
 .exam-category .news-data{
     align-items: center;
 }
-
+.exam-category .tab-section .nav-tabs .nav-item {
+    width: 50%;
+}
+.exam-category .tab-section .nav-tabs .nav-item .show .nav-link, 
+.exam-category .tab-section .nav-tabs .nav-link {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    color: var(--black-color);
+}
+.exam-category .tab-section .nav-tabs .nav-item.show .nav-link, 
+.exam-category .tab-section .nav-tabs .nav-link.active {
+    color: var(--theme-color);
+    border-bottom: 3px solid var(--theme-color) !important;
+    background: none;
+}
+.exam-category .tab-section .v-height{
+    overflow: auto;
+    height: 50ch;
+}
+.exam-category .tab-section .content{
+    align-items: center;
+    padding-top: 10px;
+}
+.exam-category .tab-section .image img{
+    height: 50px;
+    width: 80px;
+    object-fit: cover;
+}
+.exam-category .tab-section .content a{
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.exam-category .tab-section .content ul{
+    padding-left: 0;
+}
+.exam-category .tab-section .box .sticky-top{
+    background: var(--white-color);
+}
+.exam-category .tab-section .content ul li{
+    border-bottom: 1px solid var(--gray-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.exam-category .tab-section .content ul li a{
+    font-weight: normal !important;
+}
+.exam-category .tab-section .content ul li:last-child{
+    border-bottom: none;
+}
 /* =============== Exam (Next Page) ================== */
 .exam-category .box .user {
     align-items: center;
